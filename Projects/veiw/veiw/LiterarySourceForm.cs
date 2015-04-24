@@ -15,8 +15,14 @@ namespace veiw
 {
     public partial class LiterarySourceForm : Form
     {
+        /// <summary>
+        /// Таблица
+        /// </summary>
         private DataTable LiterarySources { get; set; }
 
+        /// <summary>
+        /// Список Литературных источников
+        /// </summary>
         private List<ILiterarySource> Literure { get; set; }
 
         private Dictionary<DataRow, ILiterarySource> hjhk ; 
@@ -59,7 +65,7 @@ namespace veiw
             if (sourceForm.DialogResult == DialogResult.OK)
             {
                 var source = sourceForm.LiterarySource;
-                LiterarySources.Rows.Add("hytfjhdf", source.GetDescription());    
+                LiterarySources.Rows.Add("Source", source.GetDescription());    
             }
             
         }

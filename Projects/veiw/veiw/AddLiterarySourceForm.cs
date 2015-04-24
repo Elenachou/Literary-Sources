@@ -123,16 +123,5 @@ namespace veiw
             int y = year.Next(0, 6);
             yearOfManufactureTextBox.Text = strYear[y];
         }
-
-        private void literarySourceGroupBox_ControlAdded(object sender, ControlEventArgs e)
-        {
-            CheckBox checkBox = new CheckBox();
-        }
-
-        private void bookRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

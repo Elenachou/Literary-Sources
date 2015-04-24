@@ -36,7 +36,6 @@
             this.removeLiterarySourceButton = new System.Windows.Forms.Button();
             this.addLiterarySourceButton = new System.Windows.Forms.Button();
             this.DescriptionSourceDataGridView = new System.Windows.Forms.DataGridView();
-            this.randomButton = new System.Windows.Forms.Button();
             this.literarySorceGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DescriptionSourceDataGridView)).BeginInit();
             this.SuspendLayout();
@@ -46,7 +45,6 @@
             this.literarySorceGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.literarySorceGroupBox.Controls.Add(this.randomButton);
             this.literarySorceGroupBox.Controls.Add(this.electronicResourceRadioButton);
             this.literarySorceGroupBox.Controls.Add(this.journalArticleRadioButton);
             this.literarySorceGroupBox.Controls.Add(this.bookRadioButton);
@@ -140,15 +138,6 @@
             this.DescriptionSourceDataGridView.Size = new System.Drawing.Size(344, 214);
             this.DescriptionSourceDataGridView.TabIndex = 0;
             // 
-            // randomButton
-            // 
-            this.randomButton.Location = new System.Drawing.Point(55, 246);
-            this.randomButton.Name = "randomButton";
-            this.randomButton.Size = new System.Drawing.Size(107, 48);
-            this.randomButton.TabIndex = 7;
-            this.randomButton.Text = "Random";
-            this.randomButton.UseVisualStyleBackColor = true;
-            // 
             // LiterarySourceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,7 +165,6 @@
         private System.Windows.Forms.RadioButton electronicResourceRadioButton;
         private System.Windows.Forms.RadioButton journalArticleRadioButton;
         private System.Windows.Forms.RadioButton bookRadioButton;
-        private System.Windows.Forms.Button randomButton;
     }
 }
 

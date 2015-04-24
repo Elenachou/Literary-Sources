@@ -90,7 +90,6 @@
             this.literarySourceGroupBox.TabIndex = 2;
             this.literarySourceGroupBox.TabStop = false;
             this.literarySourceGroupBox.Text = "LiterarySource";
-            this.literarySourceGroupBox.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.literarySourceGroupBox_ControlAdded);
             // 
             // RandomButton
             // 
@@ -223,7 +222,6 @@
             this.bookRadioButton.TabStop = true;
             this.bookRadioButton.Text = "Book";
             this.bookRadioButton.UseVisualStyleBackColor = true;
-            this.bookRadioButton.CheckedChanged += new System.EventHandler(this.bookRadioButton_CheckedChanged);
             // 
             // AddLiterarySourceForm
             // 
