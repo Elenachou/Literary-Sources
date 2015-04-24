@@ -13,3 +13,15 @@ C:\Users\Елена\Documents\Visual Studio 2013\Projects\veiw\veiw\bin\Debug\Mo
 C:\Users\Елена\Projects\veiw\veiw\bin\Debug\veiw.exe.config
 C:\Users\Елена\Projects\veiw\veiw\obj\Debug\veiw.exe
 C:\Users\Елена\Projects\veiw\veiw\obj\Debug\veiw.pdb
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\bin\Debug\veiw.exe.config
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Debug\veiw.exe
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Debug\veiw.pdb
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Debug\Veiw.csprojResolveAssemblyReference.cache
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Debug\veiw.AddLiterarySourceForm.resources
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Debug\veiw.LiterarySourceForm.resources
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Debug\veiw.Properties.Resources.resources
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Debug\Veiw.csproj.GenerateResource.Cache
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\bin\Debug\veiw.exe
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\bin\Debug\veiw.pdb
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\bin\Debug\Model.dll
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\bin\Debug\Model.pdb

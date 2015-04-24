@@ -15,11 +15,17 @@ namespace veiw
 {
     public partial class LiterarySourceForm : Form
     {
+        /// <summary>
+        /// Таблица
+        /// </summary>
         private DataTable LiterarySources { get; set; }
 
+        /// <summary>
+        /// Список Литературных источников
+        /// </summary>
         private List<ILiterarySource> Literure { get; set; }
 
-        private Dictionary<DataRow, ILiterarySource> hjhk ; 
+        private Dictionary<DataRow, ILiterarySource> hjhk;
 
         /// <summary>
         /// Главная форма
@@ -33,7 +39,7 @@ namespace veiw
                 Caption = "LiterarySource",
                 ColumnName = "LiterarySource",
                 ReadOnly = true,
-                DataType = typeof (string)
+                DataType = typeof(string)
             };
             LiterarySources.Columns.Add(column);
             column = new DataColumn()
@@ -59,9 +65,8 @@ namespace veiw
             if (sourceForm.DialogResult == DialogResult.OK)
             {
                 var source = sourceForm.LiterarySource;
-                LiterarySources.Rows.Add("hytfjhdf", source.GetDescription());    
+                LiterarySources.Rows.Add("Source", source.GetDescription());
             }
-            
         }
 
         /// <summary>
@@ -73,85 +78,6 @@ namespace veiw
         {
             Application.Exit();
         }
-
-        /// <summary>
-        /// Создание книги
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void bookRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-            if (!bookRadioButton.Checked)
-                return;
-            ILiterarySource source;
-
-            var book = new Book()
-            {
-                Author = "Бычкова С.М",
-                Title = "Планирование в аудите",
-                StatementOfResponsibility = "С.М. Бычкова, А.В.Газорян",
-                YearOfManufacture = 2007,
-                CountOfPages = 263
-            };
-            source = book;
-            source.GetDescription();
-            LiterarySources.Rows.Add("Book", source.GetDescription());
-            DescriptionSourceDataGridView.Refresh();
-        }
-
-        /// <summary>
-        /// Создание статьи из журнала
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void journalArticleRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-            if (!journalArticleRadioButton.Checked)
-                return;
-            ILiterarySource source;
-
-            var journalArticle = new JournalArticle()
-            {
-                Author = "Тарасова, Н.Г",
-                Title = "Сведения об ответственном: Н.Г. Тарасова",
-                StatementOfResponsibility = "Н.Г. Тарасова",
-                YearOfManufacture = 2007,
-                NameJournal = "Архитектура и строительство России",
-                IssueNumber = 4
-            };
-            source = journalArticle;
-            source.GetDescription();
-            LiterarySources.Rows.Add("Journal Article", source.GetDescription());
-            DescriptionSourceDataGridView.Refresh();
-        }
-
-        /// <summary>
-        /// Создание электронного ресурса
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void electronicResourceRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-            if (!electronicResourceRadioButton.Checked)
-                return;
-            ILiterarySource source;
-
-            var electronicResource = new ElectronicResource()
-            {
-                Author = "Родников, А.Р",
-                Title = "Логистика [Электронный ресурс]: терминологический словарь ",
-                StatementOfResponsibility = "А.Р. Родников",
-                YearOfManufacture = 2000,
-                TypeOfResource = "Электронные данные",
-                PlaceOfPublication = "Москва",
-                PublishingHouse = "ИНФРА-М",
-                Series = "1 эл. опт. диск  (CD- ROM)"
-            };
-            source = electronicResource;
-            source.GetDescription();
-            LiterarySources.Rows.Add("Electronic Resource", source.GetDescription());
-            DescriptionSourceDataGridView.Refresh();
-            }
-        }
     }
+}
 

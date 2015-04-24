@@ -124,15 +124,14 @@ namespace veiw
             yearOfManufactureTextBox.Text = strYear[y];
         }
 
-        private void literarySourceGroupBox_ControlAdded(object sender, ControlEventArgs e)
+        private void addFieldsButton_Click(object sender, EventArgs e)
         {
-            CheckBox checkBox = new CheckBox();
+            fieldsGroupBox.Visible = bookRadioButton.Checked;
+            //if (bookRadioButton.Checked)
+            //{
+            //    fieldsGroupBox.Visible = false;
+            //
+            //}
         }
-
-        private void bookRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }
