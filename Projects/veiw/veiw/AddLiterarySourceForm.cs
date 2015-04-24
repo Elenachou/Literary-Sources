@@ -123,5 +123,14 @@ namespace veiw
             int y = year.Next(0, 6);
             yearOfManufactureTextBox.Text = strYear[y];
         }
+
+        private void addFieldsButton_Click(object sender, EventArgs e)
+        {
+            if (bookRadioButton.Checked)
+            {
+                fieldsGroupBox.Visible = false;
+
+            }
+        }
     }
 }

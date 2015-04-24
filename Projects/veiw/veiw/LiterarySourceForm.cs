@@ -66,8 +66,7 @@ namespace veiw
             {
                 var source = sourceForm.LiterarySource;
                 LiterarySources.Rows.Add("Source", source.GetDescription());    
-            }
-            
+            }   
         }
 
         /// <summary>

@@ -30,7 +30,7 @@
         {
             this.okButton = new System.Windows.Forms.Button();
             this.cancelButton = new System.Windows.Forms.Button();
-            this.literarySourceGroupBox = new System.Windows.Forms.GroupBox();
+            this.fieldsGroupBox = new System.Windows.Forms.GroupBox();
             this.RandomButton = new System.Windows.Forms.Button();
             this.yearOfManufactureTextBox = new System.Windows.Forms.TextBox();
             this.yearOfManufactureLabel = new System.Windows.Forms.Label();
@@ -44,14 +44,15 @@
             this.journalArticleRadioButton = new System.Windows.Forms.RadioButton();
             this.electronicResourceRadioButton = new System.Windows.Forms.RadioButton();
             this.bookRadioButton = new System.Windows.Forms.RadioButton();
-            this.literarySourceGroupBox.SuspendLayout();
+            this.addFieldsButton = new System.Windows.Forms.Button();
+            this.fieldsGroupBox.SuspendLayout();
             this.typeLiterarySourceGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // okButton
             // 
             this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.okButton.Location = new System.Drawing.Point(17, 301);
+            this.okButton.Location = new System.Drawing.Point(148, 301);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(103, 44);
             this.okButton.TabIndex = 0;
@@ -62,7 +63,7 @@
             // cancelButton
             // 
             this.cancelButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cancelButton.Location = new System.Drawing.Point(214, 301);
+            this.cancelButton.Location = new System.Drawing.Point(281, 301);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(102, 44);
             this.cancelButton.TabIndex = 1;
@@ -70,26 +71,27 @@
             this.cancelButton.UseVisualStyleBackColor = true;
             this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
-            // literarySourceGroupBox
+            // fieldsGroupBox
             // 
-            this.literarySourceGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.literarySourceGroupBox.Controls.Add(this.RandomButton);
-            this.literarySourceGroupBox.Controls.Add(this.yearOfManufactureTextBox);
-            this.literarySourceGroupBox.Controls.Add(this.yearOfManufactureLabel);
-            this.literarySourceGroupBox.Controls.Add(this.statementOfResponsibilityLabel);
-            this.literarySourceGroupBox.Controls.Add(this.titleLabel);
-            this.literarySourceGroupBox.Controls.Add(this.authorLabel);
-            this.literarySourceGroupBox.Controls.Add(this.statementOfResponsibilityTextBox);
-            this.literarySourceGroupBox.Controls.Add(this.titleTextBox);
-            this.literarySourceGroupBox.Controls.Add(this.authorTextBox);
-            this.literarySourceGroupBox.Controls.Add(this.okButton);
-            this.literarySourceGroupBox.Controls.Add(this.cancelButton);
-            this.literarySourceGroupBox.Location = new System.Drawing.Point(250, 4);
-            this.literarySourceGroupBox.Name = "literarySourceGroupBox";
-            this.literarySourceGroupBox.Size = new System.Drawing.Size(534, 351);
-            this.literarySourceGroupBox.TabIndex = 2;
-            this.literarySourceGroupBox.TabStop = false;
-            this.literarySourceGroupBox.Text = "LiterarySource";
+            this.fieldsGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.fieldsGroupBox.Controls.Add(this.addFieldsButton);
+            this.fieldsGroupBox.Controls.Add(this.RandomButton);
+            this.fieldsGroupBox.Controls.Add(this.yearOfManufactureTextBox);
+            this.fieldsGroupBox.Controls.Add(this.yearOfManufactureLabel);
+            this.fieldsGroupBox.Controls.Add(this.statementOfResponsibilityLabel);
+            this.fieldsGroupBox.Controls.Add(this.titleLabel);
+            this.fieldsGroupBox.Controls.Add(this.authorLabel);
+            this.fieldsGroupBox.Controls.Add(this.statementOfResponsibilityTextBox);
+            this.fieldsGroupBox.Controls.Add(this.titleTextBox);
+            this.fieldsGroupBox.Controls.Add(this.authorTextBox);
+            this.fieldsGroupBox.Controls.Add(this.okButton);
+            this.fieldsGroupBox.Controls.Add(this.cancelButton);
+            this.fieldsGroupBox.Location = new System.Drawing.Point(250, 4);
+            this.fieldsGroupBox.Name = "fieldsGroupBox";
+            this.fieldsGroupBox.Size = new System.Drawing.Size(534, 351);
+            this.fieldsGroupBox.TabIndex = 2;
+            this.fieldsGroupBox.TabStop = false;
+            this.fieldsGroupBox.Text = "Fields";
             // 
             // RandomButton
             // 
@@ -223,17 +225,27 @@
             this.bookRadioButton.Text = "Book";
             this.bookRadioButton.UseVisualStyleBackColor = true;
             // 
+            // addFieldsButton
+            // 
+            this.addFieldsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.addFieldsButton.Location = new System.Drawing.Point(17, 301);
+            this.addFieldsButton.Name = "addFieldsButton";
+            this.addFieldsButton.Size = new System.Drawing.Size(97, 44);
+            this.addFieldsButton.TabIndex = 11;
+            this.addFieldsButton.Text = "AddFields";
+            this.addFieldsButton.UseVisualStyleBackColor = true;
+            // 
             // AddLiterarySourceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(796, 367);
             this.Controls.Add(this.typeLiterarySourceGroupBox);
-            this.Controls.Add(this.literarySourceGroupBox);
+            this.Controls.Add(this.fieldsGroupBox);
             this.Name = "AddLiterarySourceForm";
             this.Text = "AddLiterarySourceForm";
-            this.literarySourceGroupBox.ResumeLayout(false);
-            this.literarySourceGroupBox.PerformLayout();
+            this.fieldsGroupBox.ResumeLayout(false);
+            this.fieldsGroupBox.PerformLayout();
             this.typeLiterarySourceGroupBox.ResumeLayout(false);
             this.typeLiterarySourceGroupBox.PerformLayout();
             this.ResumeLayout(false);
@@ -244,7 +256,7 @@
 
         private System.Windows.Forms.Button okButton;
         private System.Windows.Forms.Button cancelButton;
-        private System.Windows.Forms.GroupBox literarySourceGroupBox;
+        private System.Windows.Forms.GroupBox fieldsGroupBox;
         private System.Windows.Forms.Label authorLabel;
         private System.Windows.Forms.TextBox statementOfResponsibilityTextBox;
         private System.Windows.Forms.TextBox titleTextBox;
@@ -258,5 +270,6 @@
         private System.Windows.Forms.RadioButton journalArticleRadioButton;
         private System.Windows.Forms.RadioButton electronicResourceRadioButton;
         private System.Windows.Forms.RadioButton bookRadioButton;
+        private System.Windows.Forms.Button addFieldsButton;
     }
 }
