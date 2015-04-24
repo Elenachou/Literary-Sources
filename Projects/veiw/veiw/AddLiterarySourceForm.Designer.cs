@@ -31,6 +31,7 @@
             this.okButton = new System.Windows.Forms.Button();
             this.cancelButton = new System.Windows.Forms.Button();
             this.fieldsGroupBox = new System.Windows.Forms.GroupBox();
+            this.addFieldsButton = new System.Windows.Forms.Button();
             this.RandomButton = new System.Windows.Forms.Button();
             this.yearOfManufactureTextBox = new System.Windows.Forms.TextBox();
             this.yearOfManufactureLabel = new System.Windows.Forms.Label();
@@ -44,7 +45,6 @@
             this.journalArticleRadioButton = new System.Windows.Forms.RadioButton();
             this.electronicResourceRadioButton = new System.Windows.Forms.RadioButton();
             this.bookRadioButton = new System.Windows.Forms.RadioButton();
-            this.addFieldsButton = new System.Windows.Forms.Button();
             this.fieldsGroupBox.SuspendLayout();
             this.typeLiterarySourceGroupBox.SuspendLayout();
             this.SuspendLayout();
@@ -92,6 +92,17 @@
             this.fieldsGroupBox.TabIndex = 2;
             this.fieldsGroupBox.TabStop = false;
             this.fieldsGroupBox.Text = "Fields";
+            // 
+            // addFieldsButton
+            // 
+            this.addFieldsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.addFieldsButton.Location = new System.Drawing.Point(17, 301);
+            this.addFieldsButton.Name = "addFieldsButton";
+            this.addFieldsButton.Size = new System.Drawing.Size(97, 44);
+            this.addFieldsButton.TabIndex = 11;
+            this.addFieldsButton.Text = "AddFields";
+            this.addFieldsButton.UseVisualStyleBackColor = true;
+            this.addFieldsButton.Click += new System.EventHandler(this.addFieldsButton_Click);
             // 
             // RandomButton
             // 
@@ -224,16 +235,6 @@
             this.bookRadioButton.TabStop = true;
             this.bookRadioButton.Text = "Book";
             this.bookRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // addFieldsButton
-            // 
-            this.addFieldsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.addFieldsButton.Location = new System.Drawing.Point(17, 301);
-            this.addFieldsButton.Name = "addFieldsButton";
-            this.addFieldsButton.Size = new System.Drawing.Size(97, 44);
-            this.addFieldsButton.TabIndex = 11;
-            this.addFieldsButton.Text = "AddFields";
-            this.addFieldsButton.UseVisualStyleBackColor = true;
             // 
             // AddLiterarySourceForm
             // 

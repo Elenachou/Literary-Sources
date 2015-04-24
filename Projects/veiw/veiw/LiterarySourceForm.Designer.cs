@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.literarySorceGroupBox = new System.Windows.Forms.GroupBox();
-            this.electronicResourceRadioButton = new System.Windows.Forms.RadioButton();
-            this.journalArticleRadioButton = new System.Windows.Forms.RadioButton();
-            this.bookRadioButton = new System.Windows.Forms.RadioButton();
             this.closeButton = new System.Windows.Forms.Button();
             this.removeLiterarySourceButton = new System.Windows.Forms.Button();
             this.addLiterarySourceButton = new System.Windows.Forms.Button();
@@ -45,9 +42,6 @@
             this.literarySorceGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.literarySorceGroupBox.Controls.Add(this.electronicResourceRadioButton);
-            this.literarySorceGroupBox.Controls.Add(this.journalArticleRadioButton);
-            this.literarySorceGroupBox.Controls.Add(this.bookRadioButton);
             this.literarySorceGroupBox.Controls.Add(this.closeButton);
             this.literarySorceGroupBox.Controls.Add(this.removeLiterarySourceButton);
             this.literarySorceGroupBox.Controls.Add(this.addLiterarySourceButton);
@@ -58,42 +52,6 @@
             this.literarySorceGroupBox.TabIndex = 0;
             this.literarySorceGroupBox.TabStop = false;
             this.literarySorceGroupBox.Text = "LiterarySource";
-            // 
-            // electronicResourceRadioButton
-            // 
-            this.electronicResourceRadioButton.AutoSize = true;
-            this.electronicResourceRadioButton.Location = new System.Drawing.Point(22, 106);
-            this.electronicResourceRadioButton.Name = "electronicResourceRadioButton";
-            this.electronicResourceRadioButton.Size = new System.Drawing.Size(118, 17);
-            this.electronicResourceRadioButton.TabIndex = 6;
-            this.electronicResourceRadioButton.TabStop = true;
-            this.electronicResourceRadioButton.Text = "ElectronicResource";
-            this.electronicResourceRadioButton.UseVisualStyleBackColor = true;
-            this.electronicResourceRadioButton.CheckedChanged += new System.EventHandler(this.electronicResourceRadioButton_CheckedChanged);
-            // 
-            // journalArticleRadioButton
-            // 
-            this.journalArticleRadioButton.AutoSize = true;
-            this.journalArticleRadioButton.Location = new System.Drawing.Point(22, 70);
-            this.journalArticleRadioButton.Name = "journalArticleRadioButton";
-            this.journalArticleRadioButton.Size = new System.Drawing.Size(88, 17);
-            this.journalArticleRadioButton.TabIndex = 5;
-            this.journalArticleRadioButton.TabStop = true;
-            this.journalArticleRadioButton.Text = "JournalArticle";
-            this.journalArticleRadioButton.UseVisualStyleBackColor = true;
-            this.journalArticleRadioButton.CheckedChanged += new System.EventHandler(this.journalArticleRadioButton_CheckedChanged);
-            // 
-            // bookRadioButton
-            // 
-            this.bookRadioButton.AutoSize = true;
-            this.bookRadioButton.Location = new System.Drawing.Point(22, 31);
-            this.bookRadioButton.Name = "bookRadioButton";
-            this.bookRadioButton.Size = new System.Drawing.Size(50, 17);
-            this.bookRadioButton.TabIndex = 4;
-            this.bookRadioButton.TabStop = true;
-            this.bookRadioButton.Text = "Book";
-            this.bookRadioButton.UseVisualStyleBackColor = true;
-            this.bookRadioButton.CheckedChanged += new System.EventHandler(this.bookRadioButton_CheckedChanged);
             // 
             // closeButton
             // 
@@ -109,7 +67,7 @@
             // removeLiterarySourceButton
             // 
             this.removeLiterarySourceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.removeLiterarySourceButton.Location = new System.Drawing.Point(306, 246);
+            this.removeLiterarySourceButton.Location = new System.Drawing.Point(219, 246);
             this.removeLiterarySourceButton.Name = "removeLiterarySourceButton";
             this.removeLiterarySourceButton.Size = new System.Drawing.Size(99, 48);
             this.removeLiterarySourceButton.TabIndex = 2;
@@ -119,7 +77,7 @@
             // addLiterarySourceButton
             // 
             this.addLiterarySourceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.addLiterarySourceButton.Location = new System.Drawing.Point(182, 246);
+            this.addLiterarySourceButton.Location = new System.Drawing.Point(7, 246);
             this.addLiterarySourceButton.Name = "addLiterarySourceButton";
             this.addLiterarySourceButton.Size = new System.Drawing.Size(104, 48);
             this.addLiterarySourceButton.TabIndex = 1;
@@ -133,9 +91,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DescriptionSourceDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DescriptionSourceDataGridView.Location = new System.Drawing.Point(182, 19);
+            this.DescriptionSourceDataGridView.Location = new System.Drawing.Point(7, 19);
             this.DescriptionSourceDataGridView.Name = "DescriptionSourceDataGridView";
-            this.DescriptionSourceDataGridView.Size = new System.Drawing.Size(344, 214);
+            this.DescriptionSourceDataGridView.Size = new System.Drawing.Size(519, 214);
             this.DescriptionSourceDataGridView.TabIndex = 0;
             // 
             // LiterarySourceForm
@@ -149,7 +107,6 @@
             this.Name = "LiterarySourceForm";
             this.Text = "LiterarySourceForm";
             this.literarySorceGroupBox.ResumeLayout(false);
-            this.literarySorceGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DescriptionSourceDataGridView)).EndInit();
             this.ResumeLayout(false);
 
@@ -162,9 +119,6 @@
         private System.Windows.Forms.Button removeLiterarySourceButton;
         private System.Windows.Forms.Button addLiterarySourceButton;
         private System.Windows.Forms.Button closeButton;
-        private System.Windows.Forms.RadioButton electronicResourceRadioButton;
-        private System.Windows.Forms.RadioButton journalArticleRadioButton;
-        private System.Windows.Forms.RadioButton bookRadioButton;
     }
 }
 

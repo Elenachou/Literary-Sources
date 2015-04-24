@@ -126,11 +126,12 @@ namespace veiw
 
         private void addFieldsButton_Click(object sender, EventArgs e)
         {
-            if (bookRadioButton.Checked)
-            {
-                fieldsGroupBox.Visible = false;
-
-            }
+            fieldsGroupBox.Visible = bookRadioButton.Checked;
+            //if (bookRadioButton.Checked)
+            //{
+            //    fieldsGroupBox.Visible = false;
+            //
+            //}
         }
     }
 }
