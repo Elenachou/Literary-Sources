@@ -1,0 +1,8 @@
+c:\Users\Елена\documents\visual studio 2013\Projects\Model\Library\bin\Debug\Library.exe.config
+c:\Users\Елена\documents\visual studio 2013\Projects\Model\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+c:\Users\Елена\documents\visual studio 2013\Projects\Model\Library\bin\Debug\Library.exe
+c:\Users\Елена\documents\visual studio 2013\Projects\Model\Library\bin\Debug\Library.pdb
+c:\Users\Елена\documents\visual studio 2013\Projects\Model\Library\bin\Debug\Model.dll
+c:\Users\Елена\documents\visual studio 2013\Projects\Model\Library\bin\Debug\Model.pdb
+c:\Users\Елена\documents\visual studio 2013\Projects\Model\Library\obj\Debug\Library.exe
+c:\Users\Елена\documents\visual studio 2013\Projects\Model\Library\obj\Debug\Library.pdb
