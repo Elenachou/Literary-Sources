@@ -75,7 +75,7 @@ namespace Model
         /// <returns></returns>
         public string GetDescription()
         {
-            return Author + ". " + Title +"/"+ StatementOfResponsibility + "," + _yearOfManufacture + ".-" + _countOfPages;
+            return Author + "." + Title +"/"+ StatementOfResponsibility + "," + _yearOfManufacture + ".- " + _countOfPages;
         }
     }
 }

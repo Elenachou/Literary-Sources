@@ -69,7 +69,7 @@ namespace Model
         /// <returns></returns>
         public string GetDescription()
         {
-            var str = Author + ". " + Title + ".-/" + StatementOfResponsibility + ".-" + TypeOfResource + ".-" + PlaceOfPublication + ":" + PublishingHouse + "," + _yearOfManufacture + ".-" + Series;
+            var str = Author + "." + Title + ".-/" + StatementOfResponsibility + ".-" + TypeOfResource + ".-" + PlaceOfPublication + ":" + PublishingHouse + "," + _yearOfManufacture + ".-" + Series;
             return str;
         }
 

@@ -124,8 +124,7 @@ namespace Model
         /// <returns></returns>
         public string GetDescription()
         {
-            var str = Author + ". " + Title + "/" + StatementOfResponsibility + "//" + NameJournal + ".- " + YearOfManufacture + ".- " + IssueNumber + ".- " + StartPage + "-" + EndPage;
-            return str;
+            return Author + "." + Title + "/" + StatementOfResponsibility + "//" + NameJournal + ".- " + YearOfManufacture + ".- " + IssueNumber + ".- " + StartPage + " - " + EndPage;
         }
     }
 }

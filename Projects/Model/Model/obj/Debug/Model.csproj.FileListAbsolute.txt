@@ -3,3 +3,8 @@ c:\Users\Елена\documents\visual studio 2013\Projects\Model\Model\bin\Debug\
 c:\Users\Елена\documents\visual studio 2013\Projects\Model\Model\bin\Debug\Model.pdb
 c:\Users\Елена\documents\visual studio 2013\Projects\Model\Model\obj\Debug\Model.dll
 c:\Users\Елена\documents\visual studio 2013\Projects\Model\Model\obj\Debug\Model.pdb
+C:\Users\Елена\Documents\Literary-Sources\Projects\Model\Model\bin\Debug\Model.dll
+C:\Users\Елена\Documents\Literary-Sources\Projects\Model\Model\bin\Debug\Model.pdb
+C:\Users\Елена\Documents\Literary-Sources\Projects\Model\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Елена\Documents\Literary-Sources\Projects\Model\Model\obj\Debug\Model.dll
+C:\Users\Елена\Documents\Literary-Sources\Projects\Model\Model\obj\Debug\Model.pdb
