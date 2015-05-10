@@ -14,7 +14,6 @@ namespace veiw
 {
     public partial class AddLiterarySourceForm : Form
     {
-
         public ILiterarySource LiterarySource { get; set; }
 
         public AddLiterarySourceForm()
@@ -22,32 +21,6 @@ namespace veiw
             InitializeComponent();
         }
 
-        /// <summary>
-        /// Кнопка для добавления объекта
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        public void okButton_Click(object sender, EventArgs e)
-        {
-            if (authorTextBox.Text.Length == 0
-                ||titleTextBox.Text.Length == 0
-                ||statementOfResponsibilityTextBox.Text.Length == 0
-                ||yearOfManufactureTextBox.Text.Length == 0)
-            {
-                MessageBox.Show("Не заполнено, или заполнено неправильно одно или несколько полей!");
-                return;
-            }
-            var resource = new Resource()
-            {
-                Author = authorTextBox.Text,
-                Title = titleTextBox.Text,
-                YearOfManufacture = yearOfManufactureTextBox.Text,
-                StatementOfResponsibility = statementOfResponsibilityTextBox.Text,
-            };
-            LiterarySource = resource;
-            DialogResult = DialogResult.OK;
-            Close();
-        }
 
         /// <summary>
         /// Кнопка для перехода на главную форму
@@ -56,10 +29,6 @@ namespace veiw
         /// <param name="e"></param>
         private void cancelButton_Click(object sender, EventArgs e)
         {
-            authorTextBox.Text = string.Empty;
-            titleTextBox.Text = string.Empty;
-            statementOfResponsibilityTextBox.Text = string.Empty;
-            yearOfManufactureTextBox.Text = string.Empty;
             DialogResult = DialogResult.Cancel;
             Close();
         }
@@ -82,7 +51,6 @@ namespace veiw
             };
             Random author = new Random();
             int a = author.Next(0, 6);
-            authorTextBox.Text = strAuthor[a];
 
             String[] strTitle =
             {
@@ -95,7 +63,6 @@ namespace veiw
             };
             Random title = new Random();
             int t = title.Next(0, 6);
-            titleTextBox.Text = strTitle[t];
 
             String[] strResponsibility =
             {
@@ -108,7 +75,7 @@ namespace veiw
             };
             Random res = new Random();
             int r = res.Next(0, 6);
-            statementOfResponsibilityTextBox.Text = strResponsibility[r];
+
 
             String[] strYear =
             {
@@ -121,7 +88,7 @@ namespace veiw
             };
             Random year = new Random();
             int y = year.Next(0, 6);
-            yearOfManufactureTextBox.Text = strYear[y];
+
         }
 
         private void addFieldsButton_Click(object sender, EventArgs e)
@@ -136,7 +103,16 @@ namespace veiw
 
         private void bookRadioButton_CheckedChanged(object sender, EventArgs e)
         {
+            //fieldsGroupBox.Controls.Clear();
+            //fieldsGroupBox.Controls.Add(BookControl);
+            //BookControl.Location = new Point(0, 0);
+        }
 
+        private void fieldsGroupBox_ControlAdded(object sender, ControlEventArgs e)
+        {
+            fieldsGroupBox.Controls.Clear();
+            fieldsGroupBox.Controls.Add(Bookcontrol);
+            BookControl.Location = new Point(0, 0);
         }
     }
 }

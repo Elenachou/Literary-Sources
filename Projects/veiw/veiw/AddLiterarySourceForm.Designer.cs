@@ -35,16 +35,10 @@
             this.journalArticleRadioButton = new System.Windows.Forms.RadioButton();
             this.electronicResourceRadioButton = new System.Windows.Forms.RadioButton();
             this.bookRadioButton = new System.Windows.Forms.RadioButton();
-            this.bookFieldsGroupBox = new System.Windows.Forms.GroupBox();
-            this.authorLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.titleLabel = new System.Windows.Forms.Label();
+            this.fieldsGroupBox = new System.Windows.Forms.GroupBox();
             this.statementOfRasponsibilityLabel = new System.Windows.Forms.Label();
-            this.statementOfResponsibilityLabel = new System.Windows.Forms.Label();
-            this.staementOfResponsibilityTextBox = new System.Windows.Forms.TextBox();
             this.typeLiterarySourceGroupBox.SuspendLayout();
-            this.bookFieldsGroupBox.SuspendLayout();
+            this.fieldsGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // okButton
@@ -56,7 +50,6 @@
             this.okButton.TabIndex = 0;
             this.okButton.Text = "Ok";
             this.okButton.UseVisualStyleBackColor = true;
-            this.okButton.Click += new System.EventHandler(this.okButton_Click);
             // 
             // cancelButton
             // 
@@ -130,57 +123,17 @@
             this.bookRadioButton.UseVisualStyleBackColor = true;
             this.bookRadioButton.CheckedChanged += new System.EventHandler(this.bookRadioButton_CheckedChanged);
             // 
-            // bookFieldsGroupBox
+            // fieldsGroupBox
             // 
-            this.bookFieldsGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.bookFieldsGroupBox.Controls.Add(this.staementOfResponsibilityTextBox);
-            this.bookFieldsGroupBox.Controls.Add(this.statementOfResponsibilityLabel);
-            this.bookFieldsGroupBox.Controls.Add(this.statementOfRasponsibilityLabel);
-            this.bookFieldsGroupBox.Controls.Add(this.titleLabel);
-            this.bookFieldsGroupBox.Controls.Add(this.textBox2);
-            this.bookFieldsGroupBox.Controls.Add(this.textBox1);
-            this.bookFieldsGroupBox.Controls.Add(this.authorLabel);
-            this.bookFieldsGroupBox.Location = new System.Drawing.Point(259, 4);
-            this.bookFieldsGroupBox.Name = "bookFieldsGroupBox";
-            this.bookFieldsGroupBox.Size = new System.Drawing.Size(536, 280);
-            this.bookFieldsGroupBox.TabIndex = 11;
-            this.bookFieldsGroupBox.TabStop = false;
-            this.bookFieldsGroupBox.Text = "BookFields";
-            // 
-            // authorLabel
-            // 
-            this.authorLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.authorLabel.AutoSize = true;
-            this.authorLabel.Location = new System.Drawing.Point(8, 30);
-            this.authorLabel.Name = "authorLabel";
-            this.authorLabel.Size = new System.Drawing.Size(38, 13);
-            this.authorLabel.TabIndex = 0;
-            this.authorLabel.Text = "Author";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(143, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(155, 20);
-            this.textBox1.TabIndex = 1;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(142, 71);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(383, 20);
-            this.textBox2.TabIndex = 2;
-            // 
-            // titleLabel
-            // 
-            this.titleLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.titleLabel.AutoSize = true;
-            this.titleLabel.Location = new System.Drawing.Point(6, 71);
-            this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(27, 13);
-            this.titleLabel.TabIndex = 3;
-            this.titleLabel.Text = "Title";
+            this.fieldsGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.fieldsGroupBox.Controls.Add(this.statementOfRasponsibilityLabel);
+            this.fieldsGroupBox.Location = new System.Drawing.Point(259, 4);
+            this.fieldsGroupBox.Name = "fieldsGroupBox";
+            this.fieldsGroupBox.Size = new System.Drawing.Size(536, 280);
+            this.fieldsGroupBox.TabIndex = 11;
+            this.fieldsGroupBox.TabStop = false;
+            this.fieldsGroupBox.Text = "Fields";
+            this.fieldsGroupBox.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.fieldsGroupBox_ControlAdded);
             // 
             // statementOfRasponsibilityLabel
             // 
@@ -191,31 +144,12 @@
             this.statementOfRasponsibilityLabel.Size = new System.Drawing.Size(0, 13);
             this.statementOfRasponsibilityLabel.TabIndex = 4;
             // 
-            // statementOfResponsibilityLabel
-            // 
-            this.statementOfResponsibilityLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.statementOfResponsibilityLabel.AutoEllipsis = true;
-            this.statementOfResponsibilityLabel.AutoSize = true;
-            this.statementOfResponsibilityLabel.Location = new System.Drawing.Point(6, 110);
-            this.statementOfResponsibilityLabel.Name = "statementOfResponsibilityLabel";
-            this.statementOfResponsibilityLabel.Size = new System.Drawing.Size(130, 13);
-            this.statementOfResponsibilityLabel.TabIndex = 5;
-            this.statementOfResponsibilityLabel.Text = "StatementOfResponsibility";
-            // 
-            // staementOfResponsibilityTextBox
-            // 
-            this.staementOfResponsibilityTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.staementOfResponsibilityTextBox.Location = new System.Drawing.Point(143, 110);
-            this.staementOfResponsibilityTextBox.Name = "staementOfResponsibilityTextBox";
-            this.staementOfResponsibilityTextBox.Size = new System.Drawing.Size(155, 20);
-            this.staementOfResponsibilityTextBox.TabIndex = 6;
-            // 
             // AddLiterarySourceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(796, 367);
-            this.Controls.Add(this.bookFieldsGroupBox);
+            this.Controls.Add(this.fieldsGroupBox);
             this.Controls.Add(this.RandomButton);
             this.Controls.Add(this.typeLiterarySourceGroupBox);
             this.Controls.Add(this.okButton);
@@ -224,8 +158,8 @@
             this.Text = "AddLiterarySourceForm";
             this.typeLiterarySourceGroupBox.ResumeLayout(false);
             this.typeLiterarySourceGroupBox.PerformLayout();
-            this.bookFieldsGroupBox.ResumeLayout(false);
-            this.bookFieldsGroupBox.PerformLayout();
+            this.fieldsGroupBox.ResumeLayout(false);
+            this.fieldsGroupBox.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -239,13 +173,7 @@
         private System.Windows.Forms.RadioButton journalArticleRadioButton;
         private System.Windows.Forms.RadioButton electronicResourceRadioButton;
         private System.Windows.Forms.RadioButton bookRadioButton;
-        private System.Windows.Forms.GroupBox bookFieldsGroupBox;
+        private System.Windows.Forms.GroupBox fieldsGroupBox;
         private System.Windows.Forms.Label statementOfRasponsibilityLabel;
-        private System.Windows.Forms.Label titleLabel;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label authorLabel;
-        private System.Windows.Forms.TextBox staementOfResponsibilityTextBox;
-        private System.Windows.Forms.Label statementOfResponsibilityLabel;
     }
 }

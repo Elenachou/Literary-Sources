@@ -50,6 +50,12 @@
     <Compile Include="AddLiterarySourceForm.Designer.cs">
       <DependentUpon>AddLiterarySourceForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BookControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BookControl.Designer.cs">
+      <DependentUpon>BookControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="LiterarySourceForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,8 +64,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddLiterarySourceForm.resx">
       <DependentUpon>AddLiterarySourceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookControl.resx">
+      <DependentUpon>BookControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LiterarySourceForm.resx">
       <DependentUpon>LiterarySourceForm.cs</DependentUpon>
@@ -73,6 +88,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

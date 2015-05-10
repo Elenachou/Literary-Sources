@@ -25,3 +25,5 @@ C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\bin\Debug\veiw
 C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\bin\Debug\veiw.pdb
 C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\bin\Debug\Model.dll
 C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\bin\Debug\Model.pdb
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Debug\veiw.BookControl.resources
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Debug\veiw.UserControl1.resources
