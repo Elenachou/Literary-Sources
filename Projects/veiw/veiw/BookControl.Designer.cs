@@ -1,4 +1,4 @@
-﻿namespace veiw
+﻿namespace view
 {
     partial class BookControl
     {
@@ -36,12 +36,15 @@
             this.titleTextBox = new System.Windows.Forms.TextBox();
             this.statementOfResponsibilityTextBox = new System.Windows.Forms.TextBox();
             this.yearOfManufactureTextBox = new System.Windows.Forms.TextBox();
+            this.countOfPagesLabel = new System.Windows.Forms.Label();
+            this.countOfPagesTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // authorLabel
             // 
+            this.authorLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.authorLabel.AutoSize = true;
-            this.authorLabel.Location = new System.Drawing.Point(17, 21);
+            this.authorLabel.Location = new System.Drawing.Point(20, 21);
             this.authorLabel.Name = "authorLabel";
             this.authorLabel.Size = new System.Drawing.Size(38, 13);
             this.authorLabel.TabIndex = 0;
@@ -49,8 +52,9 @@
             // 
             // titleAuthor
             // 
+            this.titleAuthor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.titleAuthor.AutoSize = true;
-            this.titleAuthor.Location = new System.Drawing.Point(17, 58);
+            this.titleAuthor.Location = new System.Drawing.Point(20, 58);
             this.titleAuthor.Name = "titleAuthor";
             this.titleAuthor.Size = new System.Drawing.Size(27, 13);
             this.titleAuthor.TabIndex = 1;
@@ -58,8 +62,9 @@
             // 
             // statementOfResponsibilityLabel
             // 
+            this.statementOfResponsibilityLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.statementOfResponsibilityLabel.AutoSize = true;
-            this.statementOfResponsibilityLabel.Location = new System.Drawing.Point(17, 92);
+            this.statementOfResponsibilityLabel.Location = new System.Drawing.Point(20, 92);
             this.statementOfResponsibilityLabel.Name = "statementOfResponsibilityLabel";
             this.statementOfResponsibilityLabel.Size = new System.Drawing.Size(129, 13);
             this.statementOfResponsibilityLabel.TabIndex = 2;
@@ -67,6 +72,7 @@
             // 
             // yearOfManufactureLabel
             // 
+            this.yearOfManufactureLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.yearOfManufactureLabel.AutoSize = true;
             this.yearOfManufactureLabel.Location = new System.Drawing.Point(20, 128);
             this.yearOfManufactureLabel.Name = "yearOfManufactureLabel";
@@ -76,6 +82,7 @@
             // 
             // authorTextBox
             // 
+            this.authorTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.authorTextBox.Location = new System.Drawing.Point(158, 21);
             this.authorTextBox.Name = "authorTextBox";
             this.authorTextBox.Size = new System.Drawing.Size(190, 20);
@@ -83,13 +90,15 @@
             // 
             // titleTextBox
             // 
+            this.titleTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.titleTextBox.Location = new System.Drawing.Point(158, 58);
             this.titleTextBox.Name = "titleTextBox";
-            this.titleTextBox.Size = new System.Drawing.Size(364, 20);
+            this.titleTextBox.Size = new System.Drawing.Size(359, 20);
             this.titleTextBox.TabIndex = 5;
             // 
             // statementOfResponsibilityTextBox
             // 
+            this.statementOfResponsibilityTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.statementOfResponsibilityTextBox.Location = new System.Drawing.Point(158, 92);
             this.statementOfResponsibilityTextBox.Name = "statementOfResponsibilityTextBox";
             this.statementOfResponsibilityTextBox.Size = new System.Drawing.Size(190, 20);
@@ -97,15 +106,36 @@
             // 
             // yearOfManufactureTextBox
             // 
+            this.yearOfManufactureTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.yearOfManufactureTextBox.Location = new System.Drawing.Point(158, 128);
             this.yearOfManufactureTextBox.Name = "yearOfManufactureTextBox";
             this.yearOfManufactureTextBox.Size = new System.Drawing.Size(71, 20);
             this.yearOfManufactureTextBox.TabIndex = 7;
             // 
+            // countOfPagesLabel
+            // 
+            this.countOfPagesLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.countOfPagesLabel.AutoSize = true;
+            this.countOfPagesLabel.Location = new System.Drawing.Point(20, 160);
+            this.countOfPagesLabel.Name = "countOfPagesLabel";
+            this.countOfPagesLabel.Size = new System.Drawing.Size(80, 13);
+            this.countOfPagesLabel.TabIndex = 8;
+            this.countOfPagesLabel.Text = "Count of Pages";
+            // 
+            // countOfPagesTextBox
+            // 
+            this.countOfPagesTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.countOfPagesTextBox.Location = new System.Drawing.Point(158, 160);
+            this.countOfPagesTextBox.Name = "countOfPagesTextBox";
+            this.countOfPagesTextBox.Size = new System.Drawing.Size(100, 20);
+            this.countOfPagesTextBox.TabIndex = 9;
+            // 
             // BookControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.countOfPagesTextBox);
+            this.Controls.Add(this.countOfPagesLabel);
             this.Controls.Add(this.yearOfManufactureTextBox);
             this.Controls.Add(this.statementOfResponsibilityTextBox);
             this.Controls.Add(this.titleTextBox);
@@ -115,7 +145,7 @@
             this.Controls.Add(this.titleAuthor);
             this.Controls.Add(this.authorLabel);
             this.Name = "BookControl";
-            this.Size = new System.Drawing.Size(536, 280);
+            this.Size = new System.Drawing.Size(520, 260);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,5 +161,7 @@
         private System.Windows.Forms.TextBox titleTextBox;
         private System.Windows.Forms.TextBox statementOfResponsibilityTextBox;
         private System.Windows.Forms.TextBox yearOfManufactureTextBox;
+        private System.Windows.Forms.Label countOfPagesLabel;
+        private System.Windows.Forms.TextBox countOfPagesTextBox;
     }
 }

@@ -1,0 +1,4 @@
+C:\Users\Елена\Documents\Literary-Sources\Projects\Model\Model\bin\Release\Model.dll
+C:\Users\Елена\Documents\Literary-Sources\Projects\Model\Model\bin\Release\Model.pdb
+C:\Users\Елена\Documents\Literary-Sources\Projects\Model\Model\obj\Release\Model.dll
+C:\Users\Елена\Documents\Literary-Sources\Projects\Model\Model\obj\Release\Model.pdb

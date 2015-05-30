@@ -11,22 +11,24 @@ using Model;
 
 namespace view
 {
-    public partial class BookControl : UserControl
+    public partial class JournalArticleControl : UserControl
     {
-        public BookControl()
+        public JournalArticleControl()
         {
             InitializeComponent();
         }
-
-        public Book GetBook()
+        public JournalArticle GetJournalArticle()
         {
-            return new Book()
+            return new JournalArticle()
             {
                 Author = authorTextBox.Text,
                 Title = titleTextBox.Text,
                 StatementOfResponsibility = statementOfResponsibilityTextBox.Text,
                 YearOfManufacture = Convert.ToInt32(yearOfManufactureTextBox.Text),
-                CountOfPages = Convert.ToInt32(countOfPagesTextBox.Text)
+                NameJournal = nameJournalTextBox.Text,
+                IssueNumber = Convert.ToInt32(issueNumberTextBox.Text),
+                //StartPage = Convert.ToInt32(startPageTextBox.Text),
+                //EndPage = Convert.ToInt32(startPageTextBox.Text)
             };
 
         }

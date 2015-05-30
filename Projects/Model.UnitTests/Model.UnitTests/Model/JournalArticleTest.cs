@@ -15,14 +15,14 @@ namespace Model.UnitTests.Model
         /// </summary>
         /// <param name="number">Номер</param>
         [Test]
-        [TestCase(1, TestName = "Тестирование Number при присваивании 1.")]
-        [TestCase(2, TestName = "Тестирование Number при присваивании 2.")]
-        [TestCase(0, TestName = "Тестирование Number при присваивании 0.")]
-        [TestCase(9, TestName = "Тестирование Number при присваивании 9.")]
-        [TestCase(-1, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Number при присваивании -1.")]
-        [TestCase(-2, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Number при присваивании -2.")]
-        [TestCase(-6, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Number при присваивании -6.")]
-        [TestCase(-7, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Number при присваивании -7.")]
+        [TestCase(1, TestName = "Тестирование Number при присваивании 1.PositiveValue")]
+        [TestCase(2, TestName = "Тестирование Number при присваивании 2.PositiveValue")]
+        [TestCase(0, TestName = "Тестирование Number при присваивании 0.PositiveValue")]
+        [TestCase(9, TestName = "Тестирование Number при присваивании 9.PositiveValue")]
+        [TestCase(-1, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Number при присваивании -1.NegativeValue")]
+        [TestCase(-2, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Number при присваивании -2.NegativeValue")]
+        [TestCase(-6, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Number при присваивании -6.NegativeValue")]
+        [TestCase(-7, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Number при присваивании -7.NegativeValue")]
         public void IssueNumberTest(int number)
         {
             var journalArticle = new JournalArticle();
@@ -34,11 +34,11 @@ namespace Model.UnitTests.Model
         /// </summary>
         /// <param name="year">Год издания статьи из журнала</param>
         [Test]
-        [TestCase(2015, TestName = "Тестирование Year при присваивании 2015")]
-        [TestCase(2003, TestName = "Тестирование Year при присваивании 2003")]
-        [TestCase(2020, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Year при присваивании 2020")]
-        [TestCase(2030, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Year при присваивании 2030")]
-        [TestCase(4000, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Year при присваивании 4000")]
+        [TestCase(2015, TestName = "Тестирование Year при присваивании 2015.PositiveValue")]
+        [TestCase(2003, TestName = "Тестирование Year при присваивании 2003.PositiveValue")]
+        [TestCase(2020, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Year при присваивании 2020.NegativeValue")]
+        [TestCase(2030, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Year при присваивании 2030.NegativeValue")]
+        [TestCase(4000, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Year при присваивании 4000.NegativeValue")]
         public void YearOfManufacture(int year)
         {
             var journalArticle = new JournalArticle();
@@ -51,11 +51,11 @@ namespace Model.UnitTests.Model
         /// <param name="startPage">Начальная страница статьи</param>
         /// <param name="endPage">Конечная страница статьи</param>
         [Test]
-        [TestCase(2,4, TestName = "Тестирование SetStartAndEndPage присвоив EndPage значение 4,а StartPage 2.")]
-        [TestCase(-2,4, ExpectedException = typeof(ArgumentException), TestName = "Тестирование SetStartAndEndPage StartPage присвоив -2.")]
-        [TestCase(4,2, ExpectedException = typeof(ArgumentException), TestName = "Тестирование SetStartAndEndPage,начальная страница больше конечной.")]
-        [TestCase(2,-4, ExpectedException = typeof(ArgumentException), TestName = "Тестирование SetStartAndEndPage,присвоив EndPage значение-1.")]
-        [TestCase(-2, -4, ExpectedException = typeof(ArgumentException), TestName = "Тестирование SetStartAndEndPage ,StartPage присвоив -2,EndPage значение-1.")]
+        [TestCase(2, 4, TestName = "Тестирование SetStartAndEndPage присвоив EndPage значение 4,а StartPage 2.PositiveValue")]
+        [TestCase(-2, 4, ExpectedException = typeof(ArgumentException), TestName = "Тестирование SetStartAndEndPage StartPage присвоив -2.NegativeValue")]
+        [TestCase(4, 2, ExpectedException = typeof(ArgumentException), TestName = "Тестирование SetStartAndEndPage,начальная страница больше конечной.NegativeValue")]
+        [TestCase(2, -4, ExpectedException = typeof(ArgumentException), TestName = "Тестирование SetStartAndEndPage,присвоив EndPage значение-1.NegativeValue")]
+        [TestCase(-2, -4, ExpectedException = typeof(ArgumentException), TestName = "Тестирование SetStartAndEndPage ,StartPage присвоив -2,EndPage значение-1.NegativeValue")]
         public void SetStartAndEndPage(int startPage,int endPage)
         {
             var journalArticle = new JournalArticle();

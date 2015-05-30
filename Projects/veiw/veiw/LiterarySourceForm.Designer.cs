@@ -1,4 +1,4 @@
-﻿namespace veiw
+﻿namespace view
 {
     partial class LiterarySourceForm
     {
@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.literarySorceGroupBox = new System.Windows.Forms.GroupBox();
-            this.closeButton = new System.Windows.Forms.Button();
-            this.removeLiterarySourceButton = new System.Windows.Forms.Button();
-            this.addLiterarySourceButton = new System.Windows.Forms.Button();
+            this.CloseButton = new System.Windows.Forms.Button();
+            this.RemoveLiterarySourceButton = new System.Windows.Forms.Button();
+            this.AddLiterarySourceButton = new System.Windows.Forms.Button();
             this.DescriptionSourceDataGridView = new System.Windows.Forms.DataGridView();
             this.literarySorceGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DescriptionSourceDataGridView)).BeginInit();
@@ -42,9 +42,9 @@
             this.literarySorceGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.literarySorceGroupBox.Controls.Add(this.closeButton);
-            this.literarySorceGroupBox.Controls.Add(this.removeLiterarySourceButton);
-            this.literarySorceGroupBox.Controls.Add(this.addLiterarySourceButton);
+            this.literarySorceGroupBox.Controls.Add(this.CloseButton);
+            this.literarySorceGroupBox.Controls.Add(this.RemoveLiterarySourceButton);
+            this.literarySorceGroupBox.Controls.Add(this.AddLiterarySourceButton);
             this.literarySorceGroupBox.Controls.Add(this.DescriptionSourceDataGridView);
             this.literarySorceGroupBox.Location = new System.Drawing.Point(5, 5);
             this.literarySorceGroupBox.Name = "literarySorceGroupBox";
@@ -53,37 +53,37 @@
             this.literarySorceGroupBox.TabStop = false;
             this.literarySorceGroupBox.Text = "LiterarySource";
             // 
-            // closeButton
+            // CloseButton
             // 
-            this.closeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.closeButton.Location = new System.Drawing.Point(423, 246);
-            this.closeButton.Name = "closeButton";
-            this.closeButton.Size = new System.Drawing.Size(103, 48);
-            this.closeButton.TabIndex = 3;
-            this.closeButton.Text = "Close";
-            this.closeButton.UseVisualStyleBackColor = true;
-            this.closeButton.Click += new System.EventHandler(this.Close_Click);
+            this.CloseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.CloseButton.Location = new System.Drawing.Point(423, 246);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(103, 48);
+            this.CloseButton.TabIndex = 3;
+            this.CloseButton.Text = "Close";
+            this.CloseButton.UseVisualStyleBackColor = true;
+            this.CloseButton.Click += new System.EventHandler(this.Close_Click);
             // 
-            // removeLiterarySourceButton
+            // RemoveLiterarySourceButton
             // 
-            this.removeLiterarySourceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.removeLiterarySourceButton.Location = new System.Drawing.Point(219, 246);
-            this.removeLiterarySourceButton.Name = "removeLiterarySourceButton";
-            this.removeLiterarySourceButton.Size = new System.Drawing.Size(99, 48);
-            this.removeLiterarySourceButton.TabIndex = 2;
-            this.removeLiterarySourceButton.Text = "Remove Literary Source";
-            this.removeLiterarySourceButton.UseVisualStyleBackColor = true;
+            this.RemoveLiterarySourceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.RemoveLiterarySourceButton.Location = new System.Drawing.Point(219, 246);
+            this.RemoveLiterarySourceButton.Name = "RemoveLiterarySourceButton";
+            this.RemoveLiterarySourceButton.Size = new System.Drawing.Size(99, 48);
+            this.RemoveLiterarySourceButton.TabIndex = 2;
+            this.RemoveLiterarySourceButton.Text = "Remove Literary Source";
+            this.RemoveLiterarySourceButton.UseVisualStyleBackColor = true;
             // 
-            // addLiterarySourceButton
+            // AddLiterarySourceButton
             // 
-            this.addLiterarySourceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.addLiterarySourceButton.Location = new System.Drawing.Point(7, 246);
-            this.addLiterarySourceButton.Name = "addLiterarySourceButton";
-            this.addLiterarySourceButton.Size = new System.Drawing.Size(104, 48);
-            this.addLiterarySourceButton.TabIndex = 1;
-            this.addLiterarySourceButton.Text = "Add Literary Source";
-            this.addLiterarySourceButton.UseVisualStyleBackColor = true;
-            this.addLiterarySourceButton.Click += new System.EventHandler(this.addLiterarySourceButton_Click);
+            this.AddLiterarySourceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddLiterarySourceButton.Location = new System.Drawing.Point(7, 246);
+            this.AddLiterarySourceButton.Name = "AddLiterarySourceButton";
+            this.AddLiterarySourceButton.Size = new System.Drawing.Size(104, 48);
+            this.AddLiterarySourceButton.TabIndex = 1;
+            this.AddLiterarySourceButton.Text = "Add Literary Source";
+            this.AddLiterarySourceButton.UseVisualStyleBackColor = true;
+            this.AddLiterarySourceButton.Click += new System.EventHandler(this.AddLiterarySourceButton_Click);
             // 
             // DescriptionSourceDataGridView
             // 
@@ -112,13 +112,18 @@
 
         }
 
+        private void addLiterarySourceButton_Click(object sender, System.EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
         #endregion
 
         private System.Windows.Forms.GroupBox literarySorceGroupBox;
         private System.Windows.Forms.DataGridView DescriptionSourceDataGridView;
-        private System.Windows.Forms.Button removeLiterarySourceButton;
-        private System.Windows.Forms.Button addLiterarySourceButton;
-        private System.Windows.Forms.Button closeButton;
+        private System.Windows.Forms.Button RemoveLiterarySourceButton;
+        private System.Windows.Forms.Button AddLiterarySourceButton;
+        private System.Windows.Forms.Button CloseButton;
     }
 }
 

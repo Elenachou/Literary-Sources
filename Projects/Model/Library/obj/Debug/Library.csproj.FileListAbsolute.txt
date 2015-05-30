@@ -6,3 +6,4 @@ c:\Users\Елена\documents\visual studio 2013\Projects\Model\Library\bin\Debu
 c:\Users\Елена\documents\visual studio 2013\Projects\Model\Library\bin\Debug\Model.pdb
 c:\Users\Елена\documents\visual studio 2013\Projects\Model\Library\obj\Debug\Library.exe
 c:\Users\Елена\documents\visual studio 2013\Projects\Model\Library\obj\Debug\Library.pdb
+C:\Users\Елена\Documents\Literary-Sources\Projects\Model\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache

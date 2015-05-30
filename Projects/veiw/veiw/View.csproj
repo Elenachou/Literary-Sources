@@ -7,7 +7,7 @@
     <ProjectGuid>{D570A769-216C-4E89-876B-A13F6F7DFFB8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>veiw</RootNamespace>
+    <RootNamespace>view</RootNamespace>
     <AssemblyName>veiw</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -56,6 +56,24 @@
     <Compile Include="BookControl.Designer.cs">
       <DependentUpon>BookControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="ElectronicResourceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ElectronicResourceControl.Designer.cs">
+      <DependentUpon>ElectronicResourceControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JournalArticleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JournalArticleControl.Designer.cs">
+      <DependentUpon>JournalArticleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LiterarySourceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LiterarySourceControl.Designer.cs">
+      <DependentUpon>LiterarySourceControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="LiterarySourceForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,17 +82,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="AddLiterarySourceForm.resx">
       <DependentUpon>AddLiterarySourceForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BookControl.resx">
       <DependentUpon>BookControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElectronicResourceControl.resx">
+      <DependentUpon>ElectronicResourceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JournalArticleControl.resx">
+      <DependentUpon>JournalArticleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiterarySourceControl.resx">
+      <DependentUpon>LiterarySourceControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LiterarySourceForm.resx">
       <DependentUpon>LiterarySourceForm.cs</DependentUpon>
@@ -87,10 +108,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UserControl1.resx">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

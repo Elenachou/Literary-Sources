@@ -1,0 +1,9 @@
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Release\View.csprojResolveAssemblyReference.cache
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Release\view.AddLiterarySourceForm.resources
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Release\view.BookControl.resources
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Release\view.ElectronicResourceControl.resources
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Release\view.JournalArticleControl.resources
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Release\view.LiterarySourceControl.resources
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Release\view.LiterarySourceForm.resources
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Release\view.Properties.Resources.resources
+C:\Users\Елена\Documents\Literary-Sources\Projects\veiw\veiw\obj\Release\View.csproj.GenerateResource.Cache

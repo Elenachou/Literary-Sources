@@ -11,22 +11,24 @@ using Model;
 
 namespace view
 {
-    public partial class BookControl : UserControl
+    public partial class ElectronicResourceControl : UserControl
     {
-        public BookControl()
+        public ElectronicResourceControl()
         {
             InitializeComponent();
         }
-
-        public Book GetBook()
+        public ElectronicResource GetElectronicResource()
         {
-            return new Book()
+            return new ElectronicResource()
             {
                 Author = authorTextBox.Text,
                 Title = titleTextBox.Text,
                 StatementOfResponsibility = statementOfResponsibilityTextBox.Text,
                 YearOfManufacture = Convert.ToInt32(yearOfManufactureTextBox.Text),
-                CountOfPages = Convert.ToInt32(countOfPagesTextBox.Text)
+                TypeOfResource = typeOfResourceTextBox.Text,
+                PlaceOfPublication = placeOfPublicationTextBox.Text,
+                PublishingHouse = publishingHouseTextBox.Text,
+                Series = seriesTextBox.Text
             };
 
         }

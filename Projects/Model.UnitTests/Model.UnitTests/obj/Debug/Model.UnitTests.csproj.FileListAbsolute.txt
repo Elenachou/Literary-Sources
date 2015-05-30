@@ -1,9 +1,7 @@
 C:\Users\Елена\Documents\Literary-Sources\Projects\Model.UnitTests\Model.UnitTests\bin\Debug\Model.UnitTests.dll
 C:\Users\Елена\Documents\Literary-Sources\Projects\Model.UnitTests\Model.UnitTests\bin\Debug\Model.UnitTests.pdb
 C:\Users\Елена\Documents\Literary-Sources\Projects\Model.UnitTests\Model.UnitTests\bin\Debug\Model.dll
-C:\Users\Елена\Documents\Literary-Sources\Projects\Model.UnitTests\Model.UnitTests\bin\Debug\nunit.framework.dll
 C:\Users\Елена\Documents\Literary-Sources\Projects\Model.UnitTests\Model.UnitTests\bin\Debug\Model.pdb
-C:\Users\Елена\Documents\Literary-Sources\Projects\Model.UnitTests\Model.UnitTests\bin\Debug\nunit.framework.xml
 C:\Users\Елена\Documents\Literary-Sources\Projects\Model.UnitTests\Model.UnitTests\obj\Debug\Model.UnitTests.csprojResolveAssemblyReference.cache
 C:\Users\Елена\Documents\Literary-Sources\Projects\Model.UnitTests\Model.UnitTests\obj\Debug\Model.UnitTests.dll
 C:\Users\Елена\Documents\Literary-Sources\Projects\Model.UnitTests\Model.UnitTests\obj\Debug\Model.UnitTests.pdb

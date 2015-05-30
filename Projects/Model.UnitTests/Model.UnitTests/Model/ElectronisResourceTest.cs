@@ -14,11 +14,11 @@ namespace Model.UnitTests.Model
         /// </summary>
         /// <param name="year">Год издания электронного ресурса</param>
         [Test]
-        [TestCase(2015, TestName = "Тестирование Year при присваивании 2015")]
-        [TestCase(2000, TestName = "Тестирование Year при присваивании 2000")]
-        [TestCase(2020, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Year при присваивании 2020")]
-        [TestCase(2034, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Year при присваивании 2034")]
-        [TestCase(8000, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Year при присваивании 8000")]
+        [TestCase(2015, TestName = "Тестирование Year при присваивании 2015.PositiveValue")]
+        [TestCase(2000, TestName = "Тестирование Year при присваивании 2000.PositiveValue")]
+        [TestCase(2020, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Year при присваивании 2020.NegativeValue")]
+        [TestCase(2034, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Year при присваивании 2034.NegativeValue")]
+        [TestCase(8000, ExpectedException = typeof(ArgumentException), TestName = "Тестирование Year при присваивании 8000.NegativeValue")]
         public void YearOfManufacture(int year)
         {
             var electronicResource = new ElectronicResource();

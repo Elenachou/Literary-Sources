@@ -11,14 +11,14 @@ using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
 using Model;
 
-namespace veiw
+namespace view
 {
     public partial class LiterarySourceForm : Form
     {
         /// <summary>
         /// Таблица
         /// </summary>
-        private DataTable LiterarySources { get; set; }
+        public DataTable LiterarySources { get; set; }
 
         /// <summary>
         /// Список Литературных источников
@@ -51,6 +51,8 @@ namespace veiw
             };
             LiterarySources.Columns.Add(column);
             DescriptionSourceDataGridView.DataSource = LiterarySources;
+            DescriptionSourceDataGridView.AutoSizeColumnsMode =
+                DataGridViewAutoSizeColumnsMode.AllCells;
         }
 
         /// <summary>
@@ -58,13 +60,15 @@ namespace veiw
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void addLiterarySourceButton_Click(object sender, EventArgs e)
+        private void AddLiterarySourceButton_Click(object sender, EventArgs e)
         {
             AddLiterarySourceForm sourceForm = new AddLiterarySourceForm();
             sourceForm.ShowDialog();
             if (sourceForm.DialogResult == DialogResult.OK)
             {
-                var source = sourceForm.LiterarySource;
+                var source = sourceForm.GetLiterarySource();
+
+                Literure.Add(source);
                 LiterarySources.Rows.Add("Source", source.GetDescription());
             }
         }
