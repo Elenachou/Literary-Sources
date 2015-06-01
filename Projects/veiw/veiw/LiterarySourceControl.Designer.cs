@@ -38,48 +38,44 @@
             // 
             // TypeLiterarySourceGroupBox
             // 
-            this.TypeLiterarySourceGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.TypeLiterarySourceGroupBox.Controls.Add(this.JournalArticleRadioButton);
             this.TypeLiterarySourceGroupBox.Controls.Add(this.ElectronicResourceRadioButton);
             this.TypeLiterarySourceGroupBox.Controls.Add(this.BookRadioButton);
-            this.TypeLiterarySourceGroupBox.Location = new System.Drawing.Point(13, 6);
+            this.TypeLiterarySourceGroupBox.Location = new System.Drawing.Point(6, 6);
             this.TypeLiterarySourceGroupBox.Name = "TypeLiterarySourceGroupBox";
-            this.TypeLiterarySourceGroupBox.Size = new System.Drawing.Size(219, 203);
+            this.TypeLiterarySourceGroupBox.Size = new System.Drawing.Size(142, 114);
             this.TypeLiterarySourceGroupBox.TabIndex = 0;
             this.TypeLiterarySourceGroupBox.TabStop = false;
-            this.TypeLiterarySourceGroupBox.Text = "TypeLiterarySource";
+            this.TypeLiterarySourceGroupBox.Text = "Literary Source Type";
             // 
             // JournalArticleRadioButton
             // 
-            this.JournalArticleRadioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.JournalArticleRadioButton.AutoSize = true;
-            this.JournalArticleRadioButton.Location = new System.Drawing.Point(17, 110);
+            this.JournalArticleRadioButton.Location = new System.Drawing.Point(11, 78);
             this.JournalArticleRadioButton.Name = "JournalArticleRadioButton";
-            this.JournalArticleRadioButton.Size = new System.Drawing.Size(88, 17);
+            this.JournalArticleRadioButton.Size = new System.Drawing.Size(91, 17);
             this.JournalArticleRadioButton.TabIndex = 2;
             this.JournalArticleRadioButton.TabStop = true;
-            this.JournalArticleRadioButton.Text = "JournalArticle";
+            this.JournalArticleRadioButton.Text = "Journal Article";
             this.JournalArticleRadioButton.UseVisualStyleBackColor = true;
             this.JournalArticleRadioButton.CheckedChanged += new System.EventHandler(this.JournalArticleRadioButton_CheckedChanged);
             // 
             // ElectronicResourceRadioButton
             // 
-            this.ElectronicResourceRadioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.ElectronicResourceRadioButton.AutoSize = true;
-            this.ElectronicResourceRadioButton.Location = new System.Drawing.Point(17, 71);
+            this.ElectronicResourceRadioButton.Location = new System.Drawing.Point(11, 54);
             this.ElectronicResourceRadioButton.Name = "ElectronicResourceRadioButton";
-            this.ElectronicResourceRadioButton.Size = new System.Drawing.Size(118, 17);
+            this.ElectronicResourceRadioButton.Size = new System.Drawing.Size(121, 17);
             this.ElectronicResourceRadioButton.TabIndex = 1;
             this.ElectronicResourceRadioButton.TabStop = true;
-            this.ElectronicResourceRadioButton.Text = "ElectronicResource";
+            this.ElectronicResourceRadioButton.Text = "Electronic Resource";
             this.ElectronicResourceRadioButton.UseVisualStyleBackColor = true;
             this.ElectronicResourceRadioButton.CheckedChanged += new System.EventHandler(this.ElectronicResourceRadioButton_CheckedChanged);
             // 
             // BookRadioButton
             // 
-            this.BookRadioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.BookRadioButton.AutoSize = true;
-            this.BookRadioButton.Location = new System.Drawing.Point(17, 30);
+            this.BookRadioButton.Location = new System.Drawing.Point(11, 30);
             this.BookRadioButton.Name = "BookRadioButton";
             this.BookRadioButton.Size = new System.Drawing.Size(50, 17);
             this.BookRadioButton.TabIndex = 0;
@@ -90,10 +86,12 @@
             // 
             // FieldsGroupBox
             // 
-            this.FieldsGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.FieldsGroupBox.Location = new System.Drawing.Point(248, 6);
+            this.FieldsGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.FieldsGroupBox.Location = new System.Drawing.Point(155, 6);
             this.FieldsGroupBox.Name = "FieldsGroupBox";
-            this.FieldsGroupBox.Size = new System.Drawing.Size(536, 282);
+            this.FieldsGroupBox.Size = new System.Drawing.Size(427, 298);
             this.FieldsGroupBox.TabIndex = 1;
             this.FieldsGroupBox.TabStop = false;
             this.FieldsGroupBox.Text = "Fields";
@@ -105,7 +103,7 @@
             this.Controls.Add(this.FieldsGroupBox);
             this.Controls.Add(this.TypeLiterarySourceGroupBox);
             this.Name = "LiterarySourceControl";
-            this.Size = new System.Drawing.Size(800, 288);
+            this.Size = new System.Drawing.Size(588, 313);
             this.TypeLiterarySourceGroupBox.ResumeLayout(false);
             this.TypeLiterarySourceGroupBox.PerformLayout();
             this.ResumeLayout(false);

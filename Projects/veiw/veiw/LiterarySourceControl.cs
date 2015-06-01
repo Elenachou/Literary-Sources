@@ -30,6 +30,8 @@ namespace view
             FieldsGroupBox.Controls.Clear();
             FieldsGroupBox.Controls.Add(bookControl);
             bookControl.Location = new Point(3, 11);
+            bookControl.Size = new Size(FieldsGroupBox.Width-20, bookControl.Height);
+            bookControl.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
             bookControl.Visible = true;
         }
 
@@ -39,6 +41,8 @@ namespace view
             FieldsGroupBox.Controls.Clear();
             FieldsGroupBox.Controls.Add(electronicResourceControl);
             electronicResourceControl.Location = new Point(3, 11);
+            electronicResourceControl.Size = new Size(FieldsGroupBox.Width - 20, electronicResourceControl.Height);
+            electronicResourceControl.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
             electronicResourceControl.Visible = true;
         }
 
@@ -48,24 +52,26 @@ namespace view
             FieldsGroupBox.Controls.Clear();
             FieldsGroupBox.Controls.Add(journalArticleControl);
             journalArticleControl.Location = new Point(3, 11);
+            journalArticleControl.Size = new Size(FieldsGroupBox.Width - 20, journalArticleControl.Height);
+            journalArticleControl.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
             journalArticleControl.Visible = true;
         }
         public ILiterarySource GetLiterarySource()
         {
-            ILiterarySource source = null;
+           
             if (BookRadioButton.Checked)
             {
-                source = _bookControl.GetBook();
+                LiterarySource = _bookControl.GetBook();
             }
             if (ElectronicResourceRadioButton.Checked)
             {
-                source = _electronicResourceControl.GetElectronicResource();
+                LiterarySource = _electronicResourceControl.GetElectronicResource();
             }
             if (JournalArticleRadioButton.Checked)
             {
-                source = _journalArticleControl.GetJournalArticle();
+                LiterarySource = _journalArticleControl.GetJournalArticle();
             }
-            return source;
+            return LiterarySource;
         }
     }
 }

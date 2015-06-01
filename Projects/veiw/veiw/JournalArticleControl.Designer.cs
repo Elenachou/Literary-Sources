@@ -28,163 +28,156 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.authorLabel = new System.Windows.Forms.Label();
-            this.titleLabel = new System.Windows.Forms.Label();
-            this.statementOfResponsibilityLabel = new System.Windows.Forms.Label();
-            this.nameJournalLabel = new System.Windows.Forms.Label();
-            this.yearOfManufactureLabel = new System.Windows.Forms.Label();
-            this.issueNumberLabel = new System.Windows.Forms.Label();
-            this.startPageLabel = new System.Windows.Forms.Label();
-            this.endPageLabel = new System.Windows.Forms.Label();
-            this.authorTextBox = new System.Windows.Forms.TextBox();
-            this.titleTextBox = new System.Windows.Forms.TextBox();
-            this.statementOfResponsibilityTextBox = new System.Windows.Forms.TextBox();
-            this.nameJournalTextBox = new System.Windows.Forms.TextBox();
+            this.AuthorLabel = new System.Windows.Forms.Label();
+            this.TitleLabel = new System.Windows.Forms.Label();
+            this.StatementOfResponsibilityLabel = new System.Windows.Forms.Label();
+            this.NameJournalLabel = new System.Windows.Forms.Label();
+            this.YearOfManufactureLabel = new System.Windows.Forms.Label();
+            this.JournalNumberLabel = new System.Windows.Forms.Label();
+            this.StartPageLabel = new System.Windows.Forms.Label();
+            this.EndPageLabel = new System.Windows.Forms.Label();
+            this.AuthorTextBox = new System.Windows.Forms.TextBox();
+            this.TitleTextBox = new System.Windows.Forms.TextBox();
+            this.StatementOfResponsibilityTextBox = new System.Windows.Forms.TextBox();
+            this.NameJournalTextBox = new System.Windows.Forms.TextBox();
             this.yearOfManufactureTextBox = new System.Windows.Forms.TextBox();
-            this.issueNumberTextBox = new System.Windows.Forms.TextBox();
-            this.startPageTextBox = new System.Windows.Forms.TextBox();
+            this.JournalNumberTextBox = new System.Windows.Forms.TextBox();
+            this.StartPageTextBox = new System.Windows.Forms.TextBox();
             this.endPageTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // authorLabel
+            // AuthorLabel
             // 
-            this.authorLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.authorLabel.AutoSize = true;
-            this.authorLabel.Location = new System.Drawing.Point(26, 23);
-            this.authorLabel.Name = "authorLabel";
-            this.authorLabel.Size = new System.Drawing.Size(38, 13);
-            this.authorLabel.TabIndex = 0;
-            this.authorLabel.Text = "Author";
+            this.AuthorLabel.AutoSize = true;
+            this.AuthorLabel.Location = new System.Drawing.Point(15, 12);
+            this.AuthorLabel.Name = "AuthorLabel";
+            this.AuthorLabel.Size = new System.Drawing.Size(41, 13);
+            this.AuthorLabel.TabIndex = 0;
+            this.AuthorLabel.Text = "Author:";
             // 
-            // titleLabel
+            // TitleLabel
             // 
-            this.titleLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.titleLabel.AutoSize = true;
-            this.titleLabel.Location = new System.Drawing.Point(26, 48);
-            this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(27, 13);
-            this.titleLabel.TabIndex = 1;
-            this.titleLabel.Text = "Title";
+            this.TitleLabel.AutoSize = true;
+            this.TitleLabel.Location = new System.Drawing.Point(15, 38);
+            this.TitleLabel.Name = "TitleLabel";
+            this.TitleLabel.Size = new System.Drawing.Size(27, 13);
+            this.TitleLabel.TabIndex = 1;
+            this.TitleLabel.Text = "Title";
             // 
-            // statementOfResponsibilityLabel
+            // StatementOfResponsibilityLabel
             // 
-            this.statementOfResponsibilityLabel.AutoSize = true;
-            this.statementOfResponsibilityLabel.Location = new System.Drawing.Point(26, 74);
-            this.statementOfResponsibilityLabel.Name = "statementOfResponsibilityLabel";
-            this.statementOfResponsibilityLabel.Size = new System.Drawing.Size(130, 13);
-            this.statementOfResponsibilityLabel.TabIndex = 2;
-            this.statementOfResponsibilityLabel.Text = "StatementOfResponsibility";
+            this.StatementOfResponsibilityLabel.AutoSize = true;
+            this.StatementOfResponsibilityLabel.Location = new System.Drawing.Point(15, 64);
+            this.StatementOfResponsibilityLabel.Name = "StatementOfResponsibilityLabel";
+            this.StatementOfResponsibilityLabel.Size = new System.Drawing.Size(137, 13);
+            this.StatementOfResponsibilityLabel.TabIndex = 2;
+            this.StatementOfResponsibilityLabel.Text = "Statement of Responsibility:";
             // 
-            // nameJournalLabel
+            // NameJournalLabel
             // 
-            this.nameJournalLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.nameJournalLabel.AutoSize = true;
-            this.nameJournalLabel.Location = new System.Drawing.Point(26, 99);
-            this.nameJournalLabel.Name = "nameJournalLabel";
-            this.nameJournalLabel.Size = new System.Drawing.Size(69, 13);
-            this.nameJournalLabel.TabIndex = 3;
-            this.nameJournalLabel.Text = "NameJournal";
+            this.NameJournalLabel.AutoSize = true;
+            this.NameJournalLabel.Location = new System.Drawing.Point(15, 91);
+            this.NameJournalLabel.Name = "NameJournalLabel";
+            this.NameJournalLabel.Size = new System.Drawing.Size(75, 13);
+            this.NameJournalLabel.TabIndex = 3;
+            this.NameJournalLabel.Text = "Name Journal:";
             // 
-            // yearOfManufactureLabel
+            // YearOfManufactureLabel
             // 
-            this.yearOfManufactureLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.yearOfManufactureLabel.AutoSize = true;
-            this.yearOfManufactureLabel.Location = new System.Drawing.Point(26, 125);
-            this.yearOfManufactureLabel.Name = "yearOfManufactureLabel";
-            this.yearOfManufactureLabel.Size = new System.Drawing.Size(100, 13);
-            this.yearOfManufactureLabel.TabIndex = 4;
-            this.yearOfManufactureLabel.Text = "YearOfManufacture";
+            this.YearOfManufactureLabel.AutoSize = true;
+            this.YearOfManufactureLabel.Location = new System.Drawing.Point(15, 117);
+            this.YearOfManufactureLabel.Name = "YearOfManufactureLabel";
+            this.YearOfManufactureLabel.Size = new System.Drawing.Size(32, 13);
+            this.YearOfManufactureLabel.TabIndex = 4;
+            this.YearOfManufactureLabel.Text = "Year:";
             // 
-            // issueNumberLabel
+            // JournalNumberLabel
             // 
-            this.issueNumberLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.issueNumberLabel.AutoSize = true;
-            this.issueNumberLabel.Location = new System.Drawing.Point(26, 152);
-            this.issueNumberLabel.Name = "issueNumberLabel";
-            this.issueNumberLabel.Size = new System.Drawing.Size(69, 13);
-            this.issueNumberLabel.TabIndex = 5;
-            this.issueNumberLabel.Text = "IssueNumber";
+            this.JournalNumberLabel.AutoSize = true;
+            this.JournalNumberLabel.Location = new System.Drawing.Point(155, 117);
+            this.JournalNumberLabel.Name = "JournalNumberLabel";
+            this.JournalNumberLabel.Size = new System.Drawing.Size(84, 13);
+            this.JournalNumberLabel.TabIndex = 5;
+            this.JournalNumberLabel.Text = "Journal Number:";
             // 
-            // startPageLabel
+            // StartPageLabel
             // 
-            this.startPageLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.startPageLabel.AutoSize = true;
-            this.startPageLabel.Location = new System.Drawing.Point(26, 177);
-            this.startPageLabel.Name = "startPageLabel";
-            this.startPageLabel.Size = new System.Drawing.Size(54, 13);
-            this.startPageLabel.TabIndex = 6;
-            this.startPageLabel.Text = "StartPage";
+            this.StartPageLabel.AutoSize = true;
+            this.StartPageLabel.Location = new System.Drawing.Point(15, 143);
+            this.StartPageLabel.Name = "StartPageLabel";
+            this.StartPageLabel.Size = new System.Drawing.Size(60, 13);
+            this.StartPageLabel.TabIndex = 6;
+            this.StartPageLabel.Text = "Start Page:";
             // 
-            // endPageLabel
+            // EndPageLabel
             // 
-            this.endPageLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.endPageLabel.AutoSize = true;
-            this.endPageLabel.Location = new System.Drawing.Point(26, 201);
-            this.endPageLabel.Name = "endPageLabel";
-            this.endPageLabel.Size = new System.Drawing.Size(51, 13);
-            this.endPageLabel.TabIndex = 7;
-            this.endPageLabel.Text = "EndPage";
+            this.EndPageLabel.AutoSize = true;
+            this.EndPageLabel.Location = new System.Drawing.Point(155, 143);
+            this.EndPageLabel.Name = "EndPageLabel";
+            this.EndPageLabel.Size = new System.Drawing.Size(57, 13);
+            this.EndPageLabel.TabIndex = 7;
+            this.EndPageLabel.Text = "End Page:";
             // 
-            // authorTextBox
+            // AuthorTextBox
             // 
-            this.authorTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.authorTextBox.Location = new System.Drawing.Point(172, 23);
-            this.authorTextBox.Name = "authorTextBox";
-            this.authorTextBox.Size = new System.Drawing.Size(126, 20);
-            this.authorTextBox.TabIndex = 8;
+            this.AuthorTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.AuthorTextBox.Location = new System.Drawing.Point(65, 9);
+            this.AuthorTextBox.Name = "AuthorTextBox";
+            this.AuthorTextBox.Size = new System.Drawing.Size(251, 20);
+            this.AuthorTextBox.TabIndex = 8;
             // 
-            // titleTextBox
+            // TitleTextBox
             // 
-            this.titleTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.titleTextBox.Location = new System.Drawing.Point(172, 48);
-            this.titleTextBox.Name = "titleTextBox";
-            this.titleTextBox.Size = new System.Drawing.Size(332, 20);
-            this.titleTextBox.TabIndex = 9;
+            this.TitleTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TitleTextBox.Location = new System.Drawing.Point(65, 35);
+            this.TitleTextBox.Name = "TitleTextBox";
+            this.TitleTextBox.Size = new System.Drawing.Size(251, 20);
+            this.TitleTextBox.TabIndex = 9;
             // 
-            // statementOfResponsibilityTextBox
+            // StatementOfResponsibilityTextBox
             // 
-            this.statementOfResponsibilityTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.statementOfResponsibilityTextBox.Location = new System.Drawing.Point(172, 74);
-            this.statementOfResponsibilityTextBox.Name = "statementOfResponsibilityTextBox";
-            this.statementOfResponsibilityTextBox.Size = new System.Drawing.Size(126, 20);
-            this.statementOfResponsibilityTextBox.TabIndex = 10;
+            this.StatementOfResponsibilityTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.StatementOfResponsibilityTextBox.Location = new System.Drawing.Point(155, 62);
+            this.StatementOfResponsibilityTextBox.Name = "StatementOfResponsibilityTextBox";
+            this.StatementOfResponsibilityTextBox.Size = new System.Drawing.Size(161, 20);
+            this.StatementOfResponsibilityTextBox.TabIndex = 10;
             // 
-            // nameJournalTextBox
+            // NameJournalTextBox
             // 
-            this.nameJournalTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.nameJournalTextBox.Location = new System.Drawing.Point(172, 99);
-            this.nameJournalTextBox.Name = "nameJournalTextBox";
-            this.nameJournalTextBox.Size = new System.Drawing.Size(162, 20);
-            this.nameJournalTextBox.TabIndex = 11;
+            this.NameJournalTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.NameJournalTextBox.Location = new System.Drawing.Point(155, 88);
+            this.NameJournalTextBox.Name = "NameJournalTextBox";
+            this.NameJournalTextBox.Size = new System.Drawing.Size(161, 20);
+            this.NameJournalTextBox.TabIndex = 11;
             // 
             // yearOfManufactureTextBox
             // 
-            this.yearOfManufactureTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.yearOfManufactureTextBox.Location = new System.Drawing.Point(172, 125);
+            this.yearOfManufactureTextBox.Location = new System.Drawing.Point(62, 114);
             this.yearOfManufactureTextBox.Name = "yearOfManufactureTextBox";
-            this.yearOfManufactureTextBox.Size = new System.Drawing.Size(43, 20);
+            this.yearOfManufactureTextBox.Size = new System.Drawing.Size(70, 20);
             this.yearOfManufactureTextBox.TabIndex = 12;
             // 
-            // issueNumberTextBox
+            // JournalNumberTextBox
             // 
-            this.issueNumberTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.issueNumberTextBox.Location = new System.Drawing.Point(172, 152);
-            this.issueNumberTextBox.Name = "issueNumberTextBox";
-            this.issueNumberTextBox.Size = new System.Drawing.Size(43, 20);
-            this.issueNumberTextBox.TabIndex = 13;
+            this.JournalNumberTextBox.Location = new System.Drawing.Point(242, 114);
+            this.JournalNumberTextBox.Name = "JournalNumberTextBox";
+            this.JournalNumberTextBox.Size = new System.Drawing.Size(74, 20);
+            this.JournalNumberTextBox.TabIndex = 13;
             // 
-            // startPageTextBox
+            // StartPageTextBox
             // 
-            this.startPageTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.startPageTextBox.Location = new System.Drawing.Point(172, 177);
-            this.startPageTextBox.Name = "startPageTextBox";
-            this.startPageTextBox.Size = new System.Drawing.Size(43, 20);
-            this.startPageTextBox.TabIndex = 14;
+            this.StartPageTextBox.Location = new System.Drawing.Point(89, 140);
+            this.StartPageTextBox.Name = "StartPageTextBox";
+            this.StartPageTextBox.Size = new System.Drawing.Size(43, 20);
+            this.StartPageTextBox.TabIndex = 14;
             // 
             // endPageTextBox
             // 
-            this.endPageTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.endPageTextBox.Location = new System.Drawing.Point(172, 201);
+            this.endPageTextBox.Location = new System.Drawing.Point(273, 140);
             this.endPageTextBox.Name = "endPageTextBox";
             this.endPageTextBox.Size = new System.Drawing.Size(43, 20);
             this.endPageTextBox.TabIndex = 15;
@@ -194,23 +187,23 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.endPageTextBox);
-            this.Controls.Add(this.startPageTextBox);
-            this.Controls.Add(this.issueNumberTextBox);
+            this.Controls.Add(this.StartPageTextBox);
+            this.Controls.Add(this.JournalNumberTextBox);
             this.Controls.Add(this.yearOfManufactureTextBox);
-            this.Controls.Add(this.nameJournalTextBox);
-            this.Controls.Add(this.statementOfResponsibilityTextBox);
-            this.Controls.Add(this.titleTextBox);
-            this.Controls.Add(this.authorTextBox);
-            this.Controls.Add(this.endPageLabel);
-            this.Controls.Add(this.startPageLabel);
-            this.Controls.Add(this.issueNumberLabel);
-            this.Controls.Add(this.yearOfManufactureLabel);
-            this.Controls.Add(this.nameJournalLabel);
-            this.Controls.Add(this.statementOfResponsibilityLabel);
-            this.Controls.Add(this.titleLabel);
-            this.Controls.Add(this.authorLabel);
+            this.Controls.Add(this.NameJournalTextBox);
+            this.Controls.Add(this.StatementOfResponsibilityTextBox);
+            this.Controls.Add(this.TitleTextBox);
+            this.Controls.Add(this.AuthorTextBox);
+            this.Controls.Add(this.EndPageLabel);
+            this.Controls.Add(this.StartPageLabel);
+            this.Controls.Add(this.JournalNumberLabel);
+            this.Controls.Add(this.YearOfManufactureLabel);
+            this.Controls.Add(this.NameJournalLabel);
+            this.Controls.Add(this.StatementOfResponsibilityLabel);
+            this.Controls.Add(this.TitleLabel);
+            this.Controls.Add(this.AuthorLabel);
             this.Name = "JournalArticleControl";
-            this.Size = new System.Drawing.Size(520, 260);
+            this.Size = new System.Drawing.Size(334, 180);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,21 +211,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Label authorLabel;
-        private System.Windows.Forms.Label titleLabel;
-        private System.Windows.Forms.Label statementOfResponsibilityLabel;
-        private System.Windows.Forms.Label nameJournalLabel;
-        private System.Windows.Forms.Label yearOfManufactureLabel;
-        private System.Windows.Forms.Label issueNumberLabel;
-        private System.Windows.Forms.Label startPageLabel;
-        private System.Windows.Forms.Label endPageLabel;
-        private System.Windows.Forms.TextBox authorTextBox;
-        private System.Windows.Forms.TextBox titleTextBox;
-        private System.Windows.Forms.TextBox statementOfResponsibilityTextBox;
-        private System.Windows.Forms.TextBox nameJournalTextBox;
+        private System.Windows.Forms.Label AuthorLabel;
+        private System.Windows.Forms.Label TitleLabel;
+        private System.Windows.Forms.Label StatementOfResponsibilityLabel;
+        private System.Windows.Forms.Label NameJournalLabel;
+        private System.Windows.Forms.Label YearOfManufactureLabel;
+        private System.Windows.Forms.Label JournalNumberLabel;
+        private System.Windows.Forms.Label StartPageLabel;
+        private System.Windows.Forms.Label EndPageLabel;
+        private System.Windows.Forms.TextBox AuthorTextBox;
+        private System.Windows.Forms.TextBox TitleTextBox;
+        private System.Windows.Forms.TextBox StatementOfResponsibilityTextBox;
+        private System.Windows.Forms.TextBox NameJournalTextBox;
         private System.Windows.Forms.TextBox yearOfManufactureTextBox;
-        private System.Windows.Forms.TextBox issueNumberTextBox;
-        private System.Windows.Forms.TextBox startPageTextBox;
+        private System.Windows.Forms.TextBox JournalNumberTextBox;
+        private System.Windows.Forms.TextBox StartPageTextBox;
         private System.Windows.Forms.TextBox endPageTextBox;
 
     }

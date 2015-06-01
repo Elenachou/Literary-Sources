@@ -21,14 +21,14 @@ namespace view
         {
             return new ElectronicResource()
             {
-                Author = authorTextBox.Text,
-                Title = titleTextBox.Text,
-                StatementOfResponsibility = statementOfResponsibilityTextBox.Text,
-                YearOfManufacture = Convert.ToInt32(yearOfManufactureTextBox.Text),
+                Author = AuthorTextBox.Text,
+                Title = TitleTextBox.Text,
+                StatementOfResponsibility = StatementOfResponsibilityTextBox.Text,
+                YearOfManufacture = Convert.ToInt32(YearOfManufactureTextBox.Text),
                 TypeOfResource = typeOfResourceTextBox.Text,
-                PlaceOfPublication = placeOfPublicationTextBox.Text,
-                PublishingHouse = publishingHouseTextBox.Text,
-                Series = seriesTextBox.Text
+                PlaceOfPublication = PlaceOfPublicationTextBox.Text,
+                PublishingHouse = PublishingHouseTextBox.Text,
+                Series = SeriesTextBox.Text
             };
 
         }

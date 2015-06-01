@@ -14,7 +14,7 @@ namespace view
 {
     public partial class AddLiterarySourceForm : Form
     {
-        public ILiterarySource LiterarySource { get; set; }
+        public ILiterarySource LiterarySource;
 
         public AddLiterarySourceForm()
         {
@@ -93,6 +93,7 @@ namespace view
         private void OkButton_Click(object sender, EventArgs e)
         {
 
+            Close();
         }
 
         public ILiterarySource GetLiterarySource()

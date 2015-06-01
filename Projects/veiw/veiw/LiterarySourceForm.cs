@@ -8,6 +8,8 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
+using System.Xml.Serialization;
 using System.Windows.Forms.VisualStyles;
 using Model;
 
@@ -15,6 +17,8 @@ namespace view
 {
     public partial class LiterarySourceForm : Form
     {
+        private SourcesList sourcesList;
+        private ILiterarySource source;
         /// <summary>
         /// Таблица
         /// </summary>
@@ -51,25 +55,37 @@ namespace view
             };
             LiterarySources.Columns.Add(column);
             DescriptionSourceDataGridView.DataSource = LiterarySources;
-            DescriptionSourceDataGridView.AutoSizeColumnsMode =
-                DataGridViewAutoSizeColumnsMode.AllCells;
+            sourcesList = new SourcesList();
+            foreach (DataGridViewColumn col in DescriptionSourceDataGridView.Columns)
+                col.SortMode = DataGridViewColumnSortMode.NotSortable;
+
+            DescriptionSourceDataGridView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+
         }
 
-        /// <summary>
-        /// Кнопка при нажатии на которую открывается форма для создания нового объекта
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void AddLiterarySourceButton_Click(object sender, EventArgs e)
         {
             AddLiterarySourceForm sourceForm = new AddLiterarySourceForm();
             sourceForm.ShowDialog();
-            if (sourceForm.DialogResult == DialogResult.OK)
+            if (sourceForm.DialogResult != DialogResult.Cancel)
             {
-                var source = sourceForm.GetLiterarySource();
-
-                Literure.Add(source);
-                LiterarySources.Rows.Add("Source", source.GetDescription());
+                var newRow = LiterarySources.NewRow();
+                source = sourceForm.GetLiterarySource();
+                if (source is Book)
+                {
+                    newRow[0] = "Book";
+                }
+                if (source is JournalArticle)
+                {
+                    newRow[0] = "JournalArticle";
+                }
+                if (source is ElectronicResource)
+                {
+                    newRow[0] = "ElectronicResource";
+                }
+                newRow[1] = source.GetDescription();
+                LiterarySources.Rows.Add(newRow);
+                sourcesList.Add(source);
             }
         }
 
@@ -81,6 +97,15 @@ namespace view
         private void Close_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void RemoveLiterarySourceButton_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow dr in DescriptionSourceDataGridView.SelectedRows)
+            {
+                sourcesList.RemoveAt(dr.Index);
+                DescriptionSourceDataGridView.Rows.Remove(dr);
+            }
         }
     }
 }

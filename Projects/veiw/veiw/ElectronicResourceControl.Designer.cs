@@ -28,190 +28,190 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.authorLabel = new System.Windows.Forms.Label();
-            this.titleLabel = new System.Windows.Forms.Label();
-            this.statementOfResponsibilityLabel = new System.Windows.Forms.Label();
-            this.typeOfResourceLabel = new System.Windows.Forms.Label();
-            this.placeOfPublicationLabel = new System.Windows.Forms.Label();
-            this.publishingHouseLabel = new System.Windows.Forms.Label();
-            this.yearOfManufactureLabel = new System.Windows.Forms.Label();
-            this.seriesLabel = new System.Windows.Forms.Label();
-            this.authorTextBox = new System.Windows.Forms.TextBox();
-            this.titleTextBox = new System.Windows.Forms.TextBox();
-            this.statementOfResponsibilityTextBox = new System.Windows.Forms.TextBox();
+            this.AuthorLabel = new System.Windows.Forms.Label();
+            this.TitleLabel = new System.Windows.Forms.Label();
+            this.StatementOfResponsibilityLabel = new System.Windows.Forms.Label();
+            this.TypeOfResourceLabel = new System.Windows.Forms.Label();
+            this.PlaceOfPublicationLabel = new System.Windows.Forms.Label();
+            this.PublishingHouseLabel = new System.Windows.Forms.Label();
+            this.YearOfManufactureLabel = new System.Windows.Forms.Label();
+            this.SeriesLabel = new System.Windows.Forms.Label();
+            this.AuthorTextBox = new System.Windows.Forms.TextBox();
+            this.TitleTextBox = new System.Windows.Forms.TextBox();
+            this.StatementOfResponsibilityTextBox = new System.Windows.Forms.TextBox();
             this.typeOfResourceTextBox = new System.Windows.Forms.TextBox();
-            this.placeOfPublicationTextBox = new System.Windows.Forms.TextBox();
-            this.publishingHouseTextBox = new System.Windows.Forms.TextBox();
-            this.yearOfManufactureTextBox = new System.Windows.Forms.TextBox();
-            this.seriesTextBox = new System.Windows.Forms.TextBox();
+            this.PlaceOfPublicationTextBox = new System.Windows.Forms.TextBox();
+            this.PublishingHouseTextBox = new System.Windows.Forms.TextBox();
+            this.YearOfManufactureTextBox = new System.Windows.Forms.TextBox();
+            this.SeriesTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // authorLabel
+            // AuthorLabel
             // 
-            this.authorLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.authorLabel.AutoSize = true;
-            this.authorLabel.Location = new System.Drawing.Point(26, 22);
-            this.authorLabel.Name = "authorLabel";
-            this.authorLabel.Size = new System.Drawing.Size(38, 13);
-            this.authorLabel.TabIndex = 0;
-            this.authorLabel.Text = "Author";
+            this.AuthorLabel.AutoSize = true;
+            this.AuthorLabel.Location = new System.Drawing.Point(15, 15);
+            this.AuthorLabel.Name = "AuthorLabel";
+            this.AuthorLabel.Size = new System.Drawing.Size(41, 13);
+            this.AuthorLabel.TabIndex = 0;
+            this.AuthorLabel.Text = "Author:";
             // 
-            // titleLabel
+            // TitleLabel
             // 
-            this.titleLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.titleLabel.AutoSize = true;
-            this.titleLabel.Location = new System.Drawing.Point(26, 48);
-            this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(27, 13);
-            this.titleLabel.TabIndex = 1;
-            this.titleLabel.Text = "Title";
+            this.TitleLabel.AutoSize = true;
+            this.TitleLabel.Location = new System.Drawing.Point(15, 41);
+            this.TitleLabel.Name = "TitleLabel";
+            this.TitleLabel.Size = new System.Drawing.Size(30, 13);
+            this.TitleLabel.TabIndex = 1;
+            this.TitleLabel.Text = "Title:";
             // 
-            // statementOfResponsibilityLabel
+            // StatementOfResponsibilityLabel
             // 
-            this.statementOfResponsibilityLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.statementOfResponsibilityLabel.AutoSize = true;
-            this.statementOfResponsibilityLabel.Location = new System.Drawing.Point(26, 74);
-            this.statementOfResponsibilityLabel.Name = "statementOfResponsibilityLabel";
-            this.statementOfResponsibilityLabel.Size = new System.Drawing.Size(130, 13);
-            this.statementOfResponsibilityLabel.TabIndex = 2;
-            this.statementOfResponsibilityLabel.Text = "StatementOfResponsibility";
+            this.StatementOfResponsibilityLabel.AutoSize = true;
+            this.StatementOfResponsibilityLabel.Location = new System.Drawing.Point(15, 67);
+            this.StatementOfResponsibilityLabel.Name = "StatementOfResponsibilityLabel";
+            this.StatementOfResponsibilityLabel.Size = new System.Drawing.Size(137, 13);
+            this.StatementOfResponsibilityLabel.TabIndex = 2;
+            this.StatementOfResponsibilityLabel.Text = "Statement of Responsibility:";
             // 
-            // typeOfResourceLabel
+            // TypeOfResourceLabel
             // 
-            this.typeOfResourceLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.typeOfResourceLabel.AutoSize = true;
-            this.typeOfResourceLabel.Location = new System.Drawing.Point(26, 100);
-            this.typeOfResourceLabel.Name = "typeOfResourceLabel";
-            this.typeOfResourceLabel.Size = new System.Drawing.Size(88, 13);
-            this.typeOfResourceLabel.TabIndex = 3;
-            this.typeOfResourceLabel.Text = "TypeOfResource";
+            this.TypeOfResourceLabel.AutoSize = true;
+            this.TypeOfResourceLabel.Location = new System.Drawing.Point(15, 93);
+            this.TypeOfResourceLabel.Name = "TypeOfResourceLabel";
+            this.TypeOfResourceLabel.Size = new System.Drawing.Size(95, 13);
+            this.TypeOfResourceLabel.TabIndex = 3;
+            this.TypeOfResourceLabel.Text = "Type of Resource:";
             // 
-            // placeOfPublicationLabel
+            // PlaceOfPublicationLabel
             // 
-            this.placeOfPublicationLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.placeOfPublicationLabel.AutoSize = true;
-            this.placeOfPublicationLabel.Location = new System.Drawing.Point(26, 127);
-            this.placeOfPublicationLabel.Name = "placeOfPublicationLabel";
-            this.placeOfPublicationLabel.Size = new System.Drawing.Size(97, 13);
-            this.placeOfPublicationLabel.TabIndex = 4;
-            this.placeOfPublicationLabel.Text = "PlaceOfPublication";
+            this.PlaceOfPublicationLabel.AutoSize = true;
+            this.PlaceOfPublicationLabel.Location = new System.Drawing.Point(15, 119);
+            this.PlaceOfPublicationLabel.Name = "PlaceOfPublicationLabel";
+            this.PlaceOfPublicationLabel.Size = new System.Drawing.Size(104, 13);
+            this.PlaceOfPublicationLabel.TabIndex = 4;
+            this.PlaceOfPublicationLabel.Text = "Place of Publication:";
             // 
-            // publishingHouseLabel
+            // PublishingHouseLabel
             // 
-            this.publishingHouseLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.publishingHouseLabel.AutoSize = true;
-            this.publishingHouseLabel.Location = new System.Drawing.Point(26, 154);
-            this.publishingHouseLabel.Name = "publishingHouseLabel";
-            this.publishingHouseLabel.Size = new System.Drawing.Size(86, 13);
-            this.publishingHouseLabel.TabIndex = 5;
-            this.publishingHouseLabel.Text = "PublishingHouse";
+            this.PublishingHouseLabel.AutoSize = true;
+            this.PublishingHouseLabel.Location = new System.Drawing.Point(15, 145);
+            this.PublishingHouseLabel.Name = "PublishingHouseLabel";
+            this.PublishingHouseLabel.Size = new System.Drawing.Size(92, 13);
+            this.PublishingHouseLabel.TabIndex = 5;
+            this.PublishingHouseLabel.Text = "Publishing House:";
             // 
-            // yearOfManufactureLabel
+            // YearOfManufactureLabel
             // 
-            this.yearOfManufactureLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.yearOfManufactureLabel.AutoSize = true;
-            this.yearOfManufactureLabel.Location = new System.Drawing.Point(26, 181);
-            this.yearOfManufactureLabel.Name = "yearOfManufactureLabel";
-            this.yearOfManufactureLabel.Size = new System.Drawing.Size(100, 13);
-            this.yearOfManufactureLabel.TabIndex = 6;
-            this.yearOfManufactureLabel.Text = "YearOfManufacture";
+            this.YearOfManufactureLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.YearOfManufactureLabel.AutoSize = true;
+            this.YearOfManufactureLabel.Location = new System.Drawing.Point(202, 171);
+            this.YearOfManufactureLabel.Name = "YearOfManufactureLabel";
+            this.YearOfManufactureLabel.Size = new System.Drawing.Size(32, 13);
+            this.YearOfManufactureLabel.TabIndex = 6;
+            this.YearOfManufactureLabel.Text = "Year:";
             // 
-            // seriesLabel
+            // SeriesLabel
             // 
-            this.seriesLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.seriesLabel.AutoSize = true;
-            this.seriesLabel.Location = new System.Drawing.Point(26, 208);
-            this.seriesLabel.Name = "seriesLabel";
-            this.seriesLabel.Size = new System.Drawing.Size(36, 13);
-            this.seriesLabel.TabIndex = 7;
-            this.seriesLabel.Text = "Series";
+            this.SeriesLabel.AutoSize = true;
+            this.SeriesLabel.Location = new System.Drawing.Point(15, 171);
+            this.SeriesLabel.Name = "SeriesLabel";
+            this.SeriesLabel.Size = new System.Drawing.Size(39, 13);
+            this.SeriesLabel.TabIndex = 7;
+            this.SeriesLabel.Text = "Series:";
             // 
-            // authorTextBox
+            // AuthorTextBox
             // 
-            this.authorTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.authorTextBox.Location = new System.Drawing.Point(169, 22);
-            this.authorTextBox.Name = "authorTextBox";
-            this.authorTextBox.Size = new System.Drawing.Size(127, 20);
-            this.authorTextBox.TabIndex = 8;
+            this.AuthorTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.AuthorTextBox.Location = new System.Drawing.Point(62, 12);
+            this.AuthorTextBox.Name = "AuthorTextBox";
+            this.AuthorTextBox.Size = new System.Drawing.Size(248, 20);
+            this.AuthorTextBox.TabIndex = 8;
             // 
-            // titleTextBox
+            // TitleTextBox
             // 
-            this.titleTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.titleTextBox.Location = new System.Drawing.Point(169, 48);
-            this.titleTextBox.Name = "titleTextBox";
-            this.titleTextBox.Size = new System.Drawing.Size(337, 20);
-            this.titleTextBox.TabIndex = 9;
+            this.TitleTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TitleTextBox.Location = new System.Drawing.Point(62, 38);
+            this.TitleTextBox.Name = "TitleTextBox";
+            this.TitleTextBox.Size = new System.Drawing.Size(248, 20);
+            this.TitleTextBox.TabIndex = 9;
             // 
-            // statementOfResponsibilityTextBox
+            // StatementOfResponsibilityTextBox
             // 
-            this.statementOfResponsibilityTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.statementOfResponsibilityTextBox.Location = new System.Drawing.Point(169, 74);
-            this.statementOfResponsibilityTextBox.Name = "statementOfResponsibilityTextBox";
-            this.statementOfResponsibilityTextBox.Size = new System.Drawing.Size(127, 20);
-            this.statementOfResponsibilityTextBox.TabIndex = 10;
+            this.StatementOfResponsibilityTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.StatementOfResponsibilityTextBox.Location = new System.Drawing.Point(156, 64);
+            this.StatementOfResponsibilityTextBox.Name = "StatementOfResponsibilityTextBox";
+            this.StatementOfResponsibilityTextBox.Size = new System.Drawing.Size(154, 20);
+            this.StatementOfResponsibilityTextBox.TabIndex = 10;
             // 
             // typeOfResourceTextBox
             // 
-            this.typeOfResourceTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.typeOfResourceTextBox.Location = new System.Drawing.Point(169, 100);
+            this.typeOfResourceTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.typeOfResourceTextBox.Location = new System.Drawing.Point(156, 90);
             this.typeOfResourceTextBox.Name = "typeOfResourceTextBox";
-            this.typeOfResourceTextBox.Size = new System.Drawing.Size(100, 20);
+            this.typeOfResourceTextBox.Size = new System.Drawing.Size(154, 20);
             this.typeOfResourceTextBox.TabIndex = 11;
             // 
-            // placeOfPublicationTextBox
+            // PlaceOfPublicationTextBox
             // 
-            this.placeOfPublicationTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.placeOfPublicationTextBox.Location = new System.Drawing.Point(169, 127);
-            this.placeOfPublicationTextBox.Name = "placeOfPublicationTextBox";
-            this.placeOfPublicationTextBox.Size = new System.Drawing.Size(143, 20);
-            this.placeOfPublicationTextBox.TabIndex = 12;
+            this.PlaceOfPublicationTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PlaceOfPublicationTextBox.Location = new System.Drawing.Point(156, 116);
+            this.PlaceOfPublicationTextBox.Name = "PlaceOfPublicationTextBox";
+            this.PlaceOfPublicationTextBox.Size = new System.Drawing.Size(154, 20);
+            this.PlaceOfPublicationTextBox.TabIndex = 12;
             // 
-            // publishingHouseTextBox
+            // PublishingHouseTextBox
             // 
-            this.publishingHouseTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.publishingHouseTextBox.Location = new System.Drawing.Point(169, 154);
-            this.publishingHouseTextBox.Name = "publishingHouseTextBox";
-            this.publishingHouseTextBox.Size = new System.Drawing.Size(100, 20);
-            this.publishingHouseTextBox.TabIndex = 13;
+            this.PublishingHouseTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PublishingHouseTextBox.Location = new System.Drawing.Point(156, 142);
+            this.PublishingHouseTextBox.Name = "PublishingHouseTextBox";
+            this.PublishingHouseTextBox.Size = new System.Drawing.Size(154, 20);
+            this.PublishingHouseTextBox.TabIndex = 13;
             // 
-            // yearOfManufactureTextBox
+            // YearOfManufactureTextBox
             // 
-            this.yearOfManufactureTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.yearOfManufactureTextBox.Location = new System.Drawing.Point(169, 181);
-            this.yearOfManufactureTextBox.Name = "yearOfManufactureTextBox";
-            this.yearOfManufactureTextBox.Size = new System.Drawing.Size(47, 20);
-            this.yearOfManufactureTextBox.TabIndex = 14;
+            this.YearOfManufactureTextBox.Location = new System.Drawing.Point(240, 168);
+            this.YearOfManufactureTextBox.Name = "YearOfManufactureTextBox";
+            this.YearOfManufactureTextBox.Size = new System.Drawing.Size(70, 20);
+            this.YearOfManufactureTextBox.TabIndex = 14;
             // 
-            // seriesTextBox
+            // SeriesTextBox
             // 
-            this.seriesTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.seriesTextBox.Location = new System.Drawing.Point(169, 208);
-            this.seriesTextBox.Name = "seriesTextBox";
-            this.seriesTextBox.Size = new System.Drawing.Size(127, 20);
-            this.seriesTextBox.TabIndex = 15;
+            this.SeriesTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.SeriesTextBox.Location = new System.Drawing.Point(62, 168);
+            this.SeriesTextBox.Name = "SeriesTextBox";
+            this.SeriesTextBox.Size = new System.Drawing.Size(134, 20);
+            this.SeriesTextBox.TabIndex = 15;
             // 
             // ElectronicResourceControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.seriesTextBox);
-            this.Controls.Add(this.yearOfManufactureTextBox);
-            this.Controls.Add(this.publishingHouseTextBox);
-            this.Controls.Add(this.placeOfPublicationTextBox);
+            this.Controls.Add(this.SeriesTextBox);
+            this.Controls.Add(this.YearOfManufactureTextBox);
+            this.Controls.Add(this.PublishingHouseTextBox);
+            this.Controls.Add(this.PlaceOfPublicationTextBox);
             this.Controls.Add(this.typeOfResourceTextBox);
-            this.Controls.Add(this.statementOfResponsibilityTextBox);
-            this.Controls.Add(this.titleTextBox);
-            this.Controls.Add(this.authorTextBox);
-            this.Controls.Add(this.seriesLabel);
-            this.Controls.Add(this.yearOfManufactureLabel);
-            this.Controls.Add(this.publishingHouseLabel);
-            this.Controls.Add(this.placeOfPublicationLabel);
-            this.Controls.Add(this.typeOfResourceLabel);
-            this.Controls.Add(this.statementOfResponsibilityLabel);
-            this.Controls.Add(this.titleLabel);
-            this.Controls.Add(this.authorLabel);
+            this.Controls.Add(this.StatementOfResponsibilityTextBox);
+            this.Controls.Add(this.TitleTextBox);
+            this.Controls.Add(this.AuthorTextBox);
+            this.Controls.Add(this.SeriesLabel);
+            this.Controls.Add(this.YearOfManufactureLabel);
+            this.Controls.Add(this.PublishingHouseLabel);
+            this.Controls.Add(this.PlaceOfPublicationLabel);
+            this.Controls.Add(this.TypeOfResourceLabel);
+            this.Controls.Add(this.StatementOfResponsibilityLabel);
+            this.Controls.Add(this.TitleLabel);
+            this.Controls.Add(this.AuthorLabel);
             this.Name = "ElectronicResourceControl";
-            this.Size = new System.Drawing.Size(520, 260);
+            this.Size = new System.Drawing.Size(339, 203);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -219,21 +219,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Label authorLabel;
-        private System.Windows.Forms.Label titleLabel;
-        private System.Windows.Forms.Label statementOfResponsibilityLabel;
-        private System.Windows.Forms.Label typeOfResourceLabel;
-        private System.Windows.Forms.Label placeOfPublicationLabel;
-        private System.Windows.Forms.Label publishingHouseLabel;
-        private System.Windows.Forms.Label yearOfManufactureLabel;
-        private System.Windows.Forms.Label seriesLabel;
-        private System.Windows.Forms.TextBox authorTextBox;
-        private System.Windows.Forms.TextBox titleTextBox;
-        private System.Windows.Forms.TextBox statementOfResponsibilityTextBox;
+        private System.Windows.Forms.Label AuthorLabel;
+        private System.Windows.Forms.Label TitleLabel;
+        private System.Windows.Forms.Label StatementOfResponsibilityLabel;
+        private System.Windows.Forms.Label TypeOfResourceLabel;
+        private System.Windows.Forms.Label PlaceOfPublicationLabel;
+        private System.Windows.Forms.Label PublishingHouseLabel;
+        private System.Windows.Forms.Label YearOfManufactureLabel;
+        private System.Windows.Forms.Label SeriesLabel;
+        private System.Windows.Forms.TextBox AuthorTextBox;
+        private System.Windows.Forms.TextBox TitleTextBox;
+        private System.Windows.Forms.TextBox StatementOfResponsibilityTextBox;
         private System.Windows.Forms.TextBox typeOfResourceTextBox;
-        private System.Windows.Forms.TextBox placeOfPublicationTextBox;
-        private System.Windows.Forms.TextBox publishingHouseTextBox;
-        private System.Windows.Forms.TextBox yearOfManufactureTextBox;
-        private System.Windows.Forms.TextBox seriesTextBox;
+        private System.Windows.Forms.TextBox PlaceOfPublicationTextBox;
+        private System.Windows.Forms.TextBox PublishingHouseTextBox;
+        private System.Windows.Forms.TextBox YearOfManufactureTextBox;
+        private System.Windows.Forms.TextBox SeriesTextBox;
     }
 }

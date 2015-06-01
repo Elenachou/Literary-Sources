@@ -21,12 +21,12 @@ namespace view
         {
             return new JournalArticle()
             {
-                Author = authorTextBox.Text,
-                Title = titleTextBox.Text,
-                StatementOfResponsibility = statementOfResponsibilityTextBox.Text,
+                Author = AuthorTextBox.Text,
+                Title = TitleTextBox.Text,
+                StatementOfResponsibility = StatementOfResponsibilityTextBox.Text,
                 YearOfManufacture = Convert.ToInt32(yearOfManufactureTextBox.Text),
-                NameJournal = nameJournalTextBox.Text,
-                IssueNumber = Convert.ToInt32(issueNumberTextBox.Text),
+                NameJournal = NameJournalTextBox.Text,
+                IssueNumber = Convert.ToInt32(JournalNumberTextBox.Text),
                 //StartPage = Convert.ToInt32(startPageTextBox.Text),
                 //EndPage = Convert.ToInt32(startPageTextBox.Text)
             };
